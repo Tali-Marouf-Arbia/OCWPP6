@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&display=swap');
+
+body * {
+    font-family: 'Syne', sans-serif;
+}
+
+.singular .entry-header{
+    padding:0em!important;
+}
+
+h1.entry-title{
+	display: none;
+}
+	
+.img-accueil{
+	border: none;	
+}
+
+.titre1-accueil{
+	color:#3B8E46;
+	font-family:'Syne';
+	font-size: 38px;
+}
+
+/* HEADER*/
+
+#site-header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between; 
+}
+
+#site-header a {
+    color:#000;
+}
+
+#site-header img{
+    width: 1795px;
+    height: 165px;
+}
+
+/* FOOTER */
+#site-footer {
+    margin: 0;
+    padding: 0;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.footer-content {
+    text-align: center; 
+}
+
+/* Style pour le lien mentions légales */
+.footer-content a {
+    text-decoration: none;
+    color: #000; 
+}
+
+
