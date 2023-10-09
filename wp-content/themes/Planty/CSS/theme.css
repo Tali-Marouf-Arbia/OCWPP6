@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&display=swap');
 
 body * {
-    font-family: 'Syne', sans-serif;
+    font-family: 'Syne', sans-serif !important;
 }
 
 .singular .entry-header{
@@ -12,21 +12,10 @@ h1.entry-title{
 	display: none;
 }
 	
-.img-accueil{
-	border: none;	
-}
-
-.titre1-accueil{
-	color:#3B8E46;
-	font-family:'Syne';
-	font-size: 38px;
-}
-
 /* HEADER*/
 
 #site-header {
     width: 100%;
-    height: 80px;
     display: flex;
     justify-content: space-between; 
 }
@@ -49,8 +38,8 @@ h1.entry-title{
     text-align: center; 
 }
 
-/* Style pour le lien mentions légales */
 .footer-content a {
+    font-family: 'Syne', sans-serif;
     text-decoration: none;
     color: #000; 
 }
@@ -73,3 +62,36 @@ h1.entry-title{
 .p-mentions{
     text-align: justify;
 }
+
+/* PAGE D'ACCUEIL */
+
+.img-accueil{
+	border: none;	
+}
+
+.titre1-accueil{
+    width: 45% !important;
+	color:#3B8E46;
+	font-size: 38px;
+    font-weight: 800;
+}
+
+.titre2-accueil{
+   color: #3B8E46;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.titre3-accueil{
+    color: #d2776a;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+
+.titre4-accueil{
+    color: #3B8E46;
+    font-weight: 800;
+    font-size: 30px;
+}
+
