@@ -14,15 +14,84 @@ h1.entry-title{
 	
 /* HEADER*/
 
+.site-logo img{
+    max-width: 35rem !important;
+}
+
 #site-header {
     width: 100%;
     display: flex;
     justify-content: space-between; 
+    height: 80px !important;
 }
 
 #site-header a {
+    font-size: 16px !important;
     color:#000;
 }
+
+#site-header a:hover{
+    color: #d2776a;
+}
+
+/* #menu-item-42{
+    border-left: #000 solid;
+    height: 80px;
+} */
+
+
+/* PAGE D'ACCUEIL */
+.img-accueil{
+	border: none;	
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+}
+
+.titre1-accueil{
+    width: 45% !important;
+	color:#3B8E46;
+	font-size: 38px !important;
+    font-weight: 800;
+}
+
+.titre2-accueil{
+    width: 45% !important;
+    color: #3B8E46;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.titre3-accueil{
+    color: #d2776a;
+    font-size: 30px;
+    font-weight: 800;
+    padding-top: 80px !important;
+}
+
+.titre4-accueil{
+    color: #3B8E46;
+    font-weight: 800;
+    font-size: 30px;
+    padding-top: 80px !important;
+}
+
+p{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.p1-accueil{
+    width: 25% !important;
+}
+
+.gallerie-accueil{
+    width: 40% !important;
+}
+
+.image-gallerie{
+    padding: 10px;
+}
+
 
 /* FOOTER */
 #site-footer {
@@ -55,72 +124,14 @@ h1.entry-title{
 
 /*MENTIONS LEGALES*/
 .title-mentions{
+    display: flex;
     color:#3B8E46;
     font-size: 38px;
+    justify-content: center;
+    padding-bottom: 20px;
 }
 
 .p-mentions{
     text-align: justify;
-}
-
-/* PAGE D'ACCUEIL */
-
-.img-accueil{
-	border: none;	
-}
-
-.titre1-accueil{
-    width: 45% !important;
-	color:#3B8E46;
-	font-size: 38px;
-    font-weight: 800;
-}
-
-.titre2-accueil{
-    width: 45% !important;
-    color: #3B8E46;
-    font-size: 30px;
-    font-weight: 700;
-}
-
-.titre3-accueil{
-    color: #d2776a;
-    font-size: 30px;
-    font-weight: 800;
-}
-
-
-.titre4-accueil{
-    color: #3B8E46;
-    font-weight: 800;
-    font-size: 30px;
-}
-
-p{
-    font-size: 20px;
-    font-weight: 400;
-}
-
-.p1-accueil{
-    width: 25% !important;
-}
-
-/* IMAGES GALERIE */
-/* .wp-block-image{
-    width: 393px !important;
-    height: 262px !important;
-} */
-/* 
-.wp-block-image{
-    
-    width: 10% !important;
-    height: 10% !important;
-} */
-
-.gallerie-accueil{
-    width: 40% !important;
-}
-
-.image-gallerie{
-    padding: 10px;
+    width: 50% !important;
 }
