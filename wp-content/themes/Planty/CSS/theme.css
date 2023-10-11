@@ -4,6 +4,11 @@ body * {
     font-family: 'Syne', sans-serif !important;
 }
 
+header, main, footer{
+    max-width: 1140px !important;
+    margin: auto !important;
+    background-color: #ECE2DA !important;
+}
 .singular .entry-header{
     padding:0em!important;
 }
@@ -20,35 +25,55 @@ h1.entry-title{
 
 #site-header {
     width: 100%;
-    display: flex;
-    justify-content: space-between; 
     height: 80px !important;
+    background-color: #fff !important;
 }
 
-#site-header a {
-    font-size: 16px !important;
-    color:#000;
+.primary-menu li a{
+    color: #000 !important;
+    
 }
 
-#site-header a:hover{
-    color: #d2776a;
+.primary-menu li a:hover{
+    transition: all 0.33s ease-in-out; 
+    transform: scale(1.1) translateY(0px);
+    text-decoration: none !important;
 }
 
-/* #menu-item-42{
-    border-left: #000 solid;
+.primary-menu li:last-child a{
+    display: flex;
+    align-items: center;
     height: 80px;
-} */
+    background-color: #E0B9B4;
+    color: #fff !important;
+    margin-top: -28px !important;
+    margin-right: -40px !important;
+    padding: 0 50px !important;
+    font-weight: 700;
+    transform: none !important;
+    transition: none !important;
+}
 
+.primary-menu li:last-child a:hover{
+    background-color: #C02E44;
+}
 
 /* PAGE D'ACCUEIL */
-.img-accueil{
-	border: none;	
-    padding-top: 80px !important;
-    padding-bottom: 80px !important;
+
+
+/*IMAGE PRINCIPALE PAGE D'ACCUEIL*/
+.wp-block-image{
+    display: flex;
+    justify-content: center;
+}
+
+.wp-block-image img{
+    width: 80%;
+
 }
 
 .titre1-accueil{
-    width: 45% !important;
+    width: 80% !important;
 	color:#3B8E46;
 	font-size: 38px !important;
     font-weight: 800;
@@ -81,7 +106,7 @@ p{
 }
 
 .p1-accueil{
-    width: 25% !important;
+    width: 30% !important;
 }
 
 .gallerie-accueil{
@@ -104,7 +129,12 @@ p{
 }
 
 .footer-content {
-    text-align: center; 
+    text-align: center;
+}
+
+.footer-content:hover{
+    transition: all 0.33s ease-in-out; 
+    transform: scale(1.1) translateY(0px);
 }
 
 .footer-content a {
@@ -115,11 +145,15 @@ p{
 
 .footer-content a:hover{
     color: #DC9F96;
-    ;
+    text-decoration: none !important; 
 }
 
 .footer-content a:active{
     color: #DC9F96;
+}
+
+.wp-image-76{
+    width: 1440px !important;
 }
 
 /*MENTIONS LEGALES*/
@@ -135,3 +169,7 @@ p{
     text-align: justify;
     width: 50% !important;
 }
+
+
+
+
