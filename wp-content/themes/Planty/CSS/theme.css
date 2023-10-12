@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&display=swap');
 
 body * {
+    /* margin: 0 auto!important; */
     font-family: 'Syne', sans-serif !important;
 }
 
 header, main, footer{
-    max-width: 1140px !important;
+    max-width: 1440px !important;
     margin: auto !important;
 }
 
 main{
-    background-color: #ECE2DA;
+    /* background-color: #ECE2DA; */
 }
 .singular .entry-header{
     padding:0em!important;
@@ -75,61 +76,81 @@ h1.entry-title{
 
 /* ACCUEIL */
 
-/*Titre Principal H1*/
-.wp-block-heading{
-    margin-top: 100px !important;
-    margin-bottom: 100px !important;
-    width: 780px !important;
-    height: 92px !important;
+/* Titre Principal h1 */
+h1.wp-block-heading{
+    margin: 0 !important;
     color: #3B8E46 !important;
     font-size: 38px !important;
+    background-color: #ECE2DA !important;
+    padding: 80px 330px 75px 330px !important;
 }
 
-/*Image Principale*/
-.wp-block-image img{
-    height: 618px !important;
-    width: auto !important;
-    object-fit: cover !important;
+.wp-block-image{
+    margin: 0 !important;
+    background-color: #ECE2DA !important;
+    padding-top: 10px !important;
+    display: flex;
+    justify-content: center;
 }
 
-.titre2-accueil{
-    width: 45% !important;
-    color: #3B8E46;
-    font-size: 30px;
-    font-weight: 700;
+.wp-image-110{
+    /* Image principale page d'accueil => LUI ATTRIBUER UNE CLASSE   */
+    width: 780px !important;
 }
 
-.titre3-accueil{
-    color: #d2776a;
-    font-size: 30px;
-    font-weight: 800;
+/* Section L'énergie des plantes */
+/* Titre */
+h2.wp-block-heading{
+    color: #3B8E46 !important;
+    font-size: 30px !important;
+    font-weight: 700 !important;
+    margin: 0 auto !important;
     padding-top: 80px !important;
 }
 
+/* <p> */
+.p1-accueil{
+    margin: 0 auto !important;
+    padding: 60px 8px 80px 8px !important;
+    /* width: 497px !important; */
+    width: 32% !important;
+}
+
+/* SECTION LES GOUTS*/
+/* titre */
+h2.titre3-accueil{
+    padding-top: 50px !important;
+    padding-bottom: 10px !important;
+    color: #d2776a !important;
+    background-color: #ECE2DA !important;
+    font-size: 30px;
+    font-weight: 800;
+}
+/* <p> */
+.wp-block-columns{
+    background-color: #ECE2DA !important;
+    margin: 0 auto !important;
+    padding-bottom: 30px !important;
+}
+
+/*gallerie page d'accueil*/
+.gallerie-accueil{
+    margin: 0 auto !important;
+    padding: 0 300px !important;
+}
+
+.image-gallerie{
+    padding: 10px;
+    width: 40% !important;
+}
+
+/* SECTION CE QU'ILS EN PENSENT*/
 .titre4-accueil{
     color: #3B8E46;
     font-weight: 800;
     font-size: 30px;
     padding-top: 80px !important;
 }
-
-p{
-    font-size: 20px;
-    font-weight: 400;
-}
-
-.p1-accueil{
-    width: 30% !important;
-}
-
-.gallerie-accueil{
-    width: 40% !important;
-}
-
-.image-gallerie{
-    padding: 10px;
-}
-
 
 /* FOOTER */
 #site-footer {
@@ -183,6 +204,8 @@ p{
     width: 80% !important;
 }
 
-
-
+/* Masque les metas icone et txt 'rechercher au dessus du footer SUPPRIMER LA DIV DS LE HTML'  */
+.post-meta-wrapper {
+    display: none !important;
+}
 
