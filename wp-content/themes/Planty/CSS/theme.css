@@ -62,7 +62,7 @@ h1.entry-title{
     font-weight: 700;
     transform: none !important;
     transition: none !important;
-    padding: 0 50px !important;
+    padding: 0 60px !important;
     margin: 0 !important
 }
 
@@ -70,16 +70,14 @@ h1.entry-title{
     background-color: #C02E44;
 }
 
-
-/* ACCUEIL */
-
+/*** ACCUEIL ***/
 /* Titre Principal h1 */
 h1.wp-block-heading{
     margin: 0 !important;
     color: #3B8E46 !important;
     font-size: 38px !important;
     background-color: #ECE2DA !important;
-    padding: 80px 330px 75px 330px !important;
+    padding: 80px 330px 100px 330px !important;
 }
 
 .wp-block-image{
@@ -91,8 +89,9 @@ h1.wp-block-heading{
 }
 
 .wp-image-110{
-    /* Image principale page d'accueil => LUI ATTRIBUER UNE CLASSE   */
-    width: 780px !important;
+    /* Image principale page d'accueil => LUI ATTRIBUER UNE CLASSE DS GUTENBERG  */
+    width: 47% !important;
+    padding-bottom: 10px !important;
 }
 
 /* Section L'énergie des plantes */
@@ -109,8 +108,8 @@ h2.wp-block-heading{
 .p1-accueil{
     margin: 0 auto !important;
     padding: 40px 0 80px 0 !important;
-    width: 497px !important;
-    width: 35% !important;
+    /* width: 497px !important; */
+    width: 30% !important;
 }
 
 /* SECTION LES GOUTS*/
@@ -127,13 +126,12 @@ h2.titre3-accueil{
 .wp-block-columns{
     background-color: #ECE2DA !important;
     margin: 0 auto !important;
-    padding-bottom: 30px !important;
 }
 
-/*gallerie page d'accueil*/
+/*gallerie */
 .gallerie-accueil{
     margin: 0 auto !important;
-    padding: 0 300px !important;
+    padding: 30px 300px 0 300px !important;
 }
 
 .image-gallerie{
@@ -141,13 +139,19 @@ h2.titre3-accueil{
     width: 40% !important;
 }
 
-/*bouton commander*/
+/*bouton commander à mettre en minuscule*/
 .wp-block-buttons{
     margin: 0 auto !important;
-    padding: 20px 0 !important;
+    padding: 30px 0 20px 0!important;
     background-color: #ECE2DA !important;
 }
 
+.wp-block-buttons a{
+    text-transform: capitalize !important;
+    font-weight: 400 !important;
+    font-size: 15px !important;
+    padding: 15px 50px !important;
+}
 .wp-block-buttons a:hover{
     background-color: #C02E44 !important;
     text-decoration: none !important;
@@ -163,57 +167,68 @@ h2.titre4-accueil{
     color: #3B8E46 !important;
     font-weight: 800 !important;
     font-size: 30px !important;
-    padding: 60px 0!important;
+    padding: 80px 0 60px 0!important;
 }
 
 .img-com{
     background-color: #fff !important;
-    width: 126px !important;
-    height: 139px !important;
+    padding-top: 40px !important;
+    height: 100% !important;
+    width: 60% !important;
 }
 
 .container-commentaires{
     background-color: #fff !important;
+    padding-left: 30px !important;
+    padding-right: 15px !important;
 }
+
 .colonne-container-commentaires{
     background-color: #fff !important;
     display: flex !important;
     flex-direction: row !important;
-    justify-content: space-between !important;
 }
 
+.colonne-container-commentaires h4{
+    color: #3B8E46 !important;
+    font-size: 30px !important;
+    font-weight: 700 !important;
+}
+
+.colonne-container-commentaires p{
+    font-size: 16px !important;
+}
+
+/*** IMAGE BAS DE PAGE ***/
 .img-pdp{
     background-color: #fff !important;
+    padding-top: 90px !important;
 }
 
-/* FOOTER */
+/*** FOOTER ***/
 .header-footer-group {
     padding: 0 !important;
 }
 
 .footer-content {
-    text-align: center;
     height: 60px !important;
     display: flex;
     justify-content: center;
-    align-items: center; 
-}
-
-.footer-content:hover{
-    transition: all 0.33s ease-in-out; 
-    transform: scale(1.1) translateY(0px);
+    align-items: center;
 }
 
 .footer-content a {
-    text-decoration: none;
+    text-decoration: none !important;
     color: #000; 
 }
 
 .footer-content a:hover{
-    text-decoration: none !important; 
+    /* text-decoration: none !important;  */
+    transition: all 0.33s ease-in-out; 
+    transform: scale(1.1) translateY(0px);
 }
 
-/*PAGE DES MENTIONS LEGALES*/
+/*** PAGE DES MENTIONS LEGALES ***/
 .title-mentions{
     display: flex;
     color:#3B8E46;
