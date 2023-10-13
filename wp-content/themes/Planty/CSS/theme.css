@@ -10,9 +10,6 @@ header, main, footer{
     margin: auto !important;
 }
 
-main{
-    /* background-color: #ECE2DA; */
-}
 .singular .entry-header{
     padding:0em!important;
 }
@@ -111,9 +108,9 @@ h2.wp-block-heading{
 /* <p> */
 .p1-accueil{
     margin: 0 auto !important;
-    padding: 60px 8px 80px 8px !important;
-    /* width: 497px !important; */
-    width: 32% !important;
+    padding: 40px 0 80px 0 !important;
+    width: 497px !important;
+    width: 35% !important;
 }
 
 /* SECTION LES GOUTS*/
@@ -123,10 +120,10 @@ h2.titre3-accueil{
     padding-bottom: 10px !important;
     color: #d2776a !important;
     background-color: #ECE2DA !important;
-    font-size: 30px;
-    font-weight: 800;
+    font-size: 30px !important;
+    font-weight: 800 !important;
 }
-/* <p> */
+
 .wp-block-columns{
     background-color: #ECE2DA !important;
     margin: 0 auto !important;
@@ -144,26 +141,62 @@ h2.titre3-accueil{
     width: 40% !important;
 }
 
+/*bouton commander*/
+.wp-block-buttons{
+    margin: 0 auto !important;
+    padding: 20px 0 !important;
+    background-color: #ECE2DA !important;
+}
+
+.wp-block-buttons a:hover{
+    background-color: #C02E44 !important;
+    text-decoration: none !important;
+}
+
+/* courbe section les goûts*/
+.img3-accueil{
+    width: 1442px !important;
+}
+
 /* SECTION CE QU'ILS EN PENSENT*/
-.titre4-accueil{
-    color: #3B8E46;
-    font-weight: 800;
-    font-size: 30px;
-    padding-top: 80px !important;
+h2.titre4-accueil{
+    color: #3B8E46 !important;
+    font-weight: 800 !important;
+    font-size: 30px !important;
+    padding: 60px 0!important;
+}
+
+.img-com{
+    background-color: #fff !important;
+    width: 126px !important;
+    height: 139px !important;
+}
+
+.container-commentaires{
+    background-color: #fff !important;
+}
+.colonne-container-commentaires{
+    background-color: #fff !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+}
+
+.img-pdp{
+    background-color: #fff !important;
 }
 
 /* FOOTER */
-#site-footer {
-    margin: 0;
-    padding: 0;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
+.header-footer-group {
+    padding: 0 !important;
 }
 
 .footer-content {
     text-align: center;
+    height: 60px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
 }
 
 .footer-content:hover{
@@ -172,25 +205,15 @@ h2.titre3-accueil{
 }
 
 .footer-content a {
-    font-family: 'Syne', sans-serif;
     text-decoration: none;
     color: #000; 
 }
 
 .footer-content a:hover{
-    color: #DC9F96;
     text-decoration: none !important; 
 }
 
-.footer-content a:active{
-    color: #DC9F96;
-}
-
-.wp-image-76{
-    width: 1440px !important;
-}
-
-/*MENTIONS LEGALES*/
+/*PAGE DES MENTIONS LEGALES*/
 .title-mentions{
     display: flex;
     color:#3B8E46;
