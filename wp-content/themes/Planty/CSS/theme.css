@@ -228,7 +228,6 @@ h2.titre4-accueil{
 }
 
 .footer-content a:hover{
-    /* text-decoration: none !important;  */
     transition: all 0.33s ease-in-out; 
     transform: scale(1.1) translateY(0px);
 }
@@ -241,16 +240,16 @@ h2.title-mentions{
     font-weight: 800 !important;
     justify-content: center;
     padding-bottom: 50px !important;
-    background-color: #ECE2DA !important;
-}
-div.p-mentions-container{
-    padding: 0 100px 30px 100px !important;
-}
-p.p-mentions{
-    text-align: justify;
-    background-color: #ECE2DA !important;
 }
 
+div.p-mentions-container{
+    padding: 0 100px 0 100px !important;
+    text-align: justify !important;
+}
+
+p.p-mentions{
+    padding-bottom: 50px !important;
+}
 
 /*** PAGE NOUS RENCONTER ***/
 
@@ -323,6 +322,27 @@ img.img-pdp-rencontrer{
     padding-top: 70px !important;
 }
 
+/** PAGE COMMANDER **/
+h2.titre-enter-commander{
+    color: #fff !important;
+    font-weight: 800 !important;
+    font-size: 38px !important;
+}
+/*separateur*/
+div.separateur-commander-container{
+    background-color: #3B8E46 !important;
+}
+
+h2.titre-2-commander{
+    color: #fff !important;
+    font-size: 30px !important;
+    font-weight: 700 !important;
+}
+
+div.gallerie-commande-container,
+figure.gallerie-commande-container{
+    background-color: #3B8E46 !important;
+}
 
 
 
