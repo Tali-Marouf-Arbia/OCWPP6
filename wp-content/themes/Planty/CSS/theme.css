@@ -234,17 +234,21 @@ h2.titre4-accueil{
 }
 
 /*** PAGE DES MENTIONS LEGALES ***/
-.title-mentions{
+h2.title-mentions{
     display: flex;
     color:#3B8E46;
-    font-size: 38px;
+    font-size: 38px !important;
+    font-weight: 800 !important;
     justify-content: center;
-    padding-top: 50px;
+    padding-bottom: 50px !important;
+    background-color: #ECE2DA !important;
 }
-
-.p-mentions{
+div.p-mentions-container{
+    padding: 0 100px 30px 100px !important;
+}
+p.p-mentions{
     text-align: justify;
-    width: 80% !important;
+    background-color: #ECE2DA !important;
 }
 
 
