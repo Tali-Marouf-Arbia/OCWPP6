@@ -143,7 +143,7 @@ h2.titre3-accueil{
     width: 40% !important;
 }
 
-/*bouton commander à mettre en minuscule*/
+/*bouton commander */
 .wp-block-buttons{
     margin: 0 auto !important;
     padding: 30px 0 20px 0!important;
@@ -210,11 +210,6 @@ h2.titre4-accueil{
     padding-top: 70px !important;
 }
 
-img.img-pdp-rencontrer{
-    background-color: #ECE2DA !important;
-    padding-top: 70px !important;
-}
-
 /*** FOOTER ***/
 .header-footer-group {
     padding: 0 !important;
@@ -263,12 +258,6 @@ h2.titre1-rencontrer{
     padding-bottom: 30px !important;
 }
 
-p.p-rencontrer{
-    font-size: 20px !important;
-    padding: 0 237px !important;
-}
-
-
 /*section L'équipe*/
 h2.titre2-rencontrer{
     color: #000 !important;
@@ -286,6 +275,7 @@ h2.titre2-rencontrer{
 .equipe-container h4{
     font-size: 20px !important;
     font-weight: 700 !important;
+    padding: 30px 0 10px 0 !important;
 }
 
 .equipe-container p{
@@ -296,18 +286,38 @@ h2.titre2-rencontrer{
 /*section du formulaire*/
 h2.titre3-rencontrer{
     background-color: #ECE2DA !important;
-    padding: 60px 0 40px 0 !important;
+    padding: 60px 0 30px 0 !important;
     color: #000 !important;
     font-size: 30px !important;
     font-weight: 700 !important;
     margin-top: 80px !important;
 }
 
+.fluentform{
+    display: flex;
+    justify-content: center;
+}
 .champ-form-rencontrer{
-    width: 35% !important;
+    width: 383px !important;
+    padding-bottom: 20px !important;
+}
+
+.ff-el-group button{
+    text-transform: capitalize !important;
+    font-size: 15px !important;
+    padding: 15px 50px !important;
+}
+
+.ff-el-group button:hover{
+    color: #fff !important;
 }
 
 
+/*image de pied de page*/
+img.img-pdp-rencontrer{
+    background-color: #ECE2DA !important;
+    padding-top: 70px !important;
+}
 
 
 
