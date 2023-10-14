@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&display=swap');
 
 body * {
-    /* margin: 0 auto!important; */
+    margin: 0 !important;
     font-family: 'Syne', sans-serif !important;
 }
 
@@ -14,7 +14,11 @@ header, main, footer{
     padding:0em!important;
 }
 
-h1.entry-title{
+.site-description{
+    display: none !important;
+}
+
+.entry-title{
 	display: none;
 }
 	
@@ -41,12 +45,12 @@ h1.entry-title{
 .primary-menu li a{
     color: #000 !important;
     margin-right: 30px !important;
+    text-decoration: none !important;
 }
 
 .primary-menu li a:hover{
     transition: all 0.33s ease-in-out; 
     transform: scale(1.1) translateY(0px);
-    text-decoration: none !important;
 }
 
 .primary-menu li a:active{
@@ -72,7 +76,7 @@ h1.entry-title{
 
 /*** ACCUEIL ***/
 /* Titre Principal h1 */
-h1.wp-block-heading{
+.titre1-accueil{
     margin: 0 !important;
     color: #3B8E46 !important;
     font-size: 38px !important;
@@ -172,19 +176,16 @@ h2.titre4-accueil{
 
 .img-com{
     background-color: #fff !important;
-    padding-top: 40px !important;
+    /* padding-top: 40px !important; */
     height: 100% !important;
     width: 60% !important;
 }
 
 .container-commentaires{
     background-color: #fff !important;
-    padding-left: 30px !important;
-    padding-right: 15px !important;
 }
 
 .colonne-container-commentaires{
-    background-color: #fff !important;
     display: flex !important;
     flex-direction: row !important;
 }
@@ -193,16 +194,25 @@ h2.titre4-accueil{
     color: #3B8E46 !important;
     font-size: 30px !important;
     font-weight: 700 !important;
+    padding-left: 30px !important;
+    padding-right: 15px !important;
 }
 
 .colonne-container-commentaires p{
     font-size: 16px !important;
+    padding-left: 30px !important;
+    padding-right: 15px !important;
 }
 
 /*** IMAGE BAS DE PAGE ***/
 .img-pdp{
     background-color: #fff !important;
-    padding-top: 90px !important;
+    padding-top: 70px !important;
+}
+
+img.img-pdp-rencontrer{
+    background-color: #ECE2DA !important;
+    padding-top: 70px !important;
 }
 
 /*** FOOTER ***/
@@ -241,6 +251,70 @@ h2.titre4-accueil{
     text-align: justify;
     width: 80% !important;
 }
+
+
+/*** PAGE NOUS RENCONTER ***/
+
+h2.titre1-rencontrer{
+    color: #D2776A !important;
+    font-size: 38px !important;
+    font-weight: 800 !important;
+    background-color: #ECE2DA !important;
+    padding-bottom: 30px !important;
+}
+
+p.p-rencontrer{
+    font-size: 20px !important;
+    padding: 0 237px !important;
+}
+
+
+/*section L'équipe*/
+h2.titre2-rencontrer{
+    color: #000 !important;
+    padding: 60px 0 20px 0 !important;
+}
+
+.equipe-container{
+    background-color: #fff !important;
+}
+
+.equipe-img{
+    background-color: #fff !important;
+}
+
+.equipe-container h4{
+    font-size: 20px !important;
+    font-weight: 700 !important;
+}
+
+.equipe-container p{
+    font-size: 20px !important;
+    font-weight: 400 !important;
+}
+
+/*section du formulaire*/
+h2.titre3-rencontrer{
+    background-color: #ECE2DA !important;
+    padding: 60px 0 40px 0 !important;
+    color: #000 !important;
+    font-size: 30px !important;
+    font-weight: 700 !important;
+    margin-top: 80px !important;
+}
+
+.champ-form-rencontrer{
+    width: 35% !important;
+}
+
+
+
+
+
+
+
+
+
 
 /* Masque les metas icone et txt 'rechercher au dessus du footer SUPPRIMER LA DIV DS LE HTML'  */
 .post-meta-wrapper {
