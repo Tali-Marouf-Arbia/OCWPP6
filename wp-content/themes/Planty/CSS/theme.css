@@ -174,34 +174,26 @@ h2.titre4-accueil{
     padding: 80px 0 60px 0!important;
 }
 
-.img-com{
-    background-color: #fff !important;
-    /* padding-top: 40px !important; */
-    height: 100% !important;
-    width: 60% !important;
-}
-
 .container-commentaires{
     background-color: #fff !important;
-}
-
-.colonne-container-commentaires{
-    display: flex !important;
-    flex-direction: row !important;
+    width: 85% !important;
 }
 
 .colonne-container-commentaires h4{
     color: #3B8E46 !important;
     font-size: 30px !important;
     font-weight: 700 !important;
-    padding-left: 30px !important;
-    padding-right: 15px !important;
+    padding-bottom: 10px !important;
+}
+
+.colonne-container-commentaires div{
+    padding: 0 20px 0 30px !important;
 }
 
 .colonne-container-commentaires p{
     font-size: 16px !important;
-    padding-left: 30px !important;
-    padding-right: 15px !important;
+    /* padding-left: 30px !important; */
+    /* padding-right: 15px !important; */
 }
 
 /*** IMAGE BAS DE PAGE ***/
@@ -333,6 +325,44 @@ div.separateur-commander-container{
     background-color: #3B8E46 !important;
 }
 
+.separateur-commander-container div{
+    display: flex !important;
+    justify-content: center !important;
+}
+p.separateur-commander{
+    width: 845px !important;
+}
+
+h2.titre-2-commander{
+    padding: 0 0 0 21% !important;
+}
+
+/*SECTION FORMULAIRE DE COMMANDE*/
+.colonne-form-container{
+    background-color: #3B8E46 !important;
+    color: #fff !important;
+    padding-bottom: 50px !important;
+}
+
+.commander-form-container{
+    padding-bottom: 30px !important;
+}
+
+.ff-t-column-1{
+    padding-right: 15px !important;
+}
+
+.ff-t-column-2{
+    border-left: 1px solid white !important;
+    padding-left: 30px !important;
+}
+
+.champ-form-commande-container{
+    width: 392px !important;
+    padding: 20px 0 0 0 !important;
+}
+
+/***SECTION GALLERIE COMMANDE***/
 h2.titre-2-commander{
     color: #fff !important;
     font-size: 30px !important;
