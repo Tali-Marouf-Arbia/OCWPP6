@@ -74,13 +74,39 @@ header, main, footer{
     background-color: #C02E44;
 }
 
+
+/*** CSS GENERAUX ***/
+
+.bg-vert{
+    background-color: #3B8E46 !important;
+}
+
+.clr-vert{
+    color: #3B8E46 !important;
+}
+
+.bg-taupe{
+    background-color: #ECE2DA;
+}
+
+.clr-blanc{
+    color: #fff !important;
+}
+
+.titres-h1{  /* TOUS LES H1 **/
+    font-size: 38px !important;
+    font-weight: 800 !important;
+    padding: 70px 0 !important;
+}
+
+
+
+
+
 /*** ACCUEIL ***/
 /* Titre Principal h1 */
-.titre1-accueil{
+.h1-accueil{
     margin: 0 !important;
-    color: #3B8E46 !important;
-    font-size: 38px !important;
-    background-color: #ECE2DA !important;
     padding: 80px 330px 100px 330px !important;
 }
 
@@ -245,13 +271,30 @@ p.p-mentions{
 
 /*** PAGE NOUS RENCONTER ***/
 
-h2.titre1-rencontrer{
-    color: #D2776A !important;
-    font-size: 38px !important;
-    font-weight: 800 !important;
-    background-color: #ECE2DA !important;
-    padding-bottom: 30px !important;
+.media-container-rencontrer{
+    display: flex;
+    justify-content: center !important;
 }
+
+.media-container-rencontrer figure{
+    width: 145px !important;
+    height: 200px !important;
+    padding: 50px 0 0 0 !important;
+    margin-left: -150px !important;
+}
+
+.media-container-rencontrer div{
+    width: 760px !important;
+}
+
+.media-container-rencontrer div p{
+    font-size: 20px !important;
+}
+
+.media-container-rencontrer h1{
+    padding: 100px 0 20px 0 !important;
+}
+
 
 /*section L'équipe*/
 h2.titre2-rencontrer{
@@ -315,26 +358,43 @@ img.img-pdp-rencontrer{
 }
 
 /** PAGE COMMANDER **/
-h2.titre-enter-commander{
-    color: #fff !important;
-    font-weight: 800 !important;
-    font-size: 38px !important;
-}
-/*separateur*/
-div.separateur-commander-container{
-    background-color: #3B8E46 !important;
+
+.entry-content hr::before, .entry-content hr::after, hr.styled-separator::before, hr.styled-separator::after{
+    content: none !important;
 }
 
-.separateur-commander-container div{
-    display: flex !important;
-    justify-content: center !important;
-}
-p.separateur-commander{
+.entry-content hr{
+    color: #fff !important;
     width: 845px !important;
 }
 
 h2.titre-2-commander{
     padding: 0 0 0 21% !important;
+}
+
+/***SECTION COMMANDE ***/
+
+.images-commande-container{
+    background-color: #3B8E46 !important;
+    display: flex;
+    justify-content: center !important;
+}
+
+.images-commande-container figure{
+    padding: 0 !important;
+}
+
+.container-boutons{
+    background-color: #3B8E46 !important;
+}
+
+/* .bouton-ok-container{
+    width: 90px !important;
+} */
+
+.bouton-ok{
+    background-color: #3B8E46 !important;
+    /* width: 90px !important; */
 }
 
 /*SECTION FORMULAIRE DE COMMANDE*/
