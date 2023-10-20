@@ -11,7 +11,7 @@ header, main, footer{
 }
 
 .singular .entry-header{
-    padding:0em!important;
+    padding: 0em!important;
 }
 
 .site-description{
@@ -93,10 +93,23 @@ header, main, footer{
     color: #fff !important;
 }
 
-.titres-h1{  /* TOUS LES H1 **/
+.clr-rose{
+    color: #d2776a  !important;
+}
+
+.clr-noir{
+    color: #000 !important;
+}
+
+.h1{  /* TOUS LES H1 **/
     font-size: 38px !important;
     font-weight: 800 !important;
     padding: 70px 0 !important;
+}
+
+.h2{
+    font-size: 30px !important;
+    font-weight: 700 !important;
 }
 
 
@@ -110,121 +123,102 @@ header, main, footer{
     padding: 80px 330px 100px 330px !important;
 }
 
-.wp-block-image{
+.img-accueil{
     margin: 0 !important;
-    background-color: #ECE2DA !important;
-    padding-top: 10px !important;
     display: flex;
     justify-content: center;
 }
 
-.wp-image-110{
-    /* Image principale page d'accueil => LUI ATTRIBUER UNE CLASSE DS GUTENBERG  */
+.img-accueil img{
     width: 47% !important;
     padding-bottom: 10px !important;
 }
 
 /* Section L'énergie des plantes */
 /* Titre */
-h2.wp-block-heading{
-    color: #3B8E46 !important;
-    font-size: 30px !important;
-    font-weight: 700 !important;
+.h2-energie{
     margin: 0 auto !important;
     padding-top: 80px !important;
 }
 
 /* <p> */
-.p1-accueil{
+.p-energie{
     margin: 0 auto !important;
     padding: 40px 0 80px 0 !important;
-    /* width: 497px !important; */
-    width: 30% !important;
+    width: 497px !important;
+    font-size: 20px !important;
+    font-weight: 400 !important;
 }
 
 /* SECTION LES GOUTS*/
 /* titre */
-h2.titre3-accueil{
+.h2-gouts{
     padding-top: 50px !important;
     padding-bottom: 10px !important;
-    color: #d2776a !important;
-    background-color: #ECE2DA !important;
     font-size: 30px !important;
     font-weight: 800 !important;
 }
 
-.wp-block-columns{
-    background-color: #ECE2DA !important;
-    margin: 0 auto !important;
+.p-gouts{
+    padding: 0 !important;
 }
 
-/*gallerie */
-.gallerie-accueil{
+.img-gouts-container{
     margin: 0 auto !important;
     padding: 30px 300px 0 300px !important;
 }
 
-.image-gallerie{
-    padding: 10px;
-    width: 40% !important;
+.img-gouts{
+    padding: 5px;
 }
 
 /*bouton commander */
-.wp-block-buttons{
+.btn-commander-container{
     margin: 0 auto !important;
     padding: 30px 0 20px 0!important;
-    background-color: #ECE2DA !important;
 }
 
-.wp-block-buttons a{
+.btn-commander a{
     text-transform: capitalize !important;
     font-weight: 400 !important;
     font-size: 15px !important;
     padding: 15px 50px !important;
 }
-.wp-block-buttons a:hover{
+.btn-commander a:hover{
     background-color: #C02E44 !important;
     text-decoration: none !important;
 }
 
 /* courbe section les goûts*/
-.img3-accueil{
+.img-courbe{
     width: 1442px !important;
 }
 
 /* SECTION CE QU'ILS EN PENSENT*/
-h2.titre4-accueil{
-    color: #3B8E46 !important;
+.h2-comm{
     font-weight: 800 !important;
-    font-size: 30px !important;
     padding: 80px 0 60px 0!important;
 }
 
-.container-commentaires{
-    background-color: #fff !important;
+.comm-container{
     width: 85% !important;
+    margin-left: 7.5% !important;
 }
 
-.colonne-container-commentaires h4{
-    color: #3B8E46 !important;
-    font-size: 30px !important;
-    font-weight: 700 !important;
+.colonne-comm h4{
     padding-bottom: 10px !important;
 }
 
-.colonne-container-commentaires div{
+.colonne-comm div{
     padding: 0 20px 0 30px !important;
 }
 
-.colonne-container-commentaires p{
+.colonne-comm p{
     font-size: 16px !important;
-    /* padding-left: 30px !important; */
-    /* padding-right: 15px !important; */
 }
 
 /*** IMAGE BAS DE PAGE ***/
 .img-pdp{
-    background-color: #fff !important;
     padding-top: 70px !important;
 }
 
@@ -251,14 +245,6 @@ h2.titre4-accueil{
 }
 
 /*** PAGE DES MENTIONS LEGALES ***/
-h2.title-mentions{
-    display: flex;
-    color:#3B8E46;
-    font-size: 38px !important;
-    font-weight: 800 !important;
-    justify-content: center;
-    padding-bottom: 50px !important;
-}
 
 div.p-mentions-container{
     padding: 0 100px 0 100px !important;
@@ -269,12 +255,15 @@ p.p-mentions{
     padding-bottom: 50px !important;
 }
 
-/*** PAGE NOUS RENCONTER ***/
 
+
+
+
+/*** PAGE NOUS RENCONTER ***/
 .media-container-rencontrer{
     display: flex;
     justify-content: center !important;
-}
+} 
 
 .media-container-rencontrer figure{
     width: 145px !important;
@@ -287,14 +276,9 @@ p.p-mentions{
     width: 760px !important;
 }
 
-.media-container-rencontrer div p{
-    font-size: 20px !important;
-}
-
 .media-container-rencontrer h1{
     padding: 100px 0 20px 0 !important;
 }
-
 
 /*section L'équipe*/
 h2.titre2-rencontrer{
@@ -302,12 +286,14 @@ h2.titre2-rencontrer{
     padding: 60px 0 20px 0 !important;
 }
 
-.equipe-container{
-    background-color: #fff !important;
+.cln-container{
+    display: flex;
+    justify-content: center !important;
 }
 
 .equipe-img{
-    background-color: #fff !important;
+    display: flex !important;
+    justify-content: center !important;
 }
 
 .equipe-container h4{
@@ -322,12 +308,8 @@ h2.titre2-rencontrer{
 }
 
 /*section du formulaire*/
-h2.titre3-rencontrer{
-    background-color: #ECE2DA !important;
+.h2-form-contact{
     padding: 60px 0 30px 0 !important;
-    color: #000 !important;
-    font-size: 30px !important;
-    font-weight: 700 !important;
     margin-top: 80px !important;
 }
 
@@ -365,19 +347,23 @@ img.img-pdp-rencontrer{
 
 .entry-content hr{
     color: #fff !important;
-    width: 845px !important;
-}
-
-h2.titre-2-commander{
-    padding: 0 0 0 21% !important;
-}
-
-/***SECTION COMMANDE ***/
-
-.images-commande-container{
-    background-color: #3B8E46 !important;
     display: flex;
     justify-content: center !important;
+}
+
+/* hr{
+    width: 860px !important;
+} */
+
+/***SECTION COMMANDE ***/
+.h2-commander{
+    padding: 50px 0 20px 300px !important;
+}
+
+.images-commande-container{
+    display: flex;
+    justify-content: center !important;
+    padding-bottom: 20px !important;
 }
 
 .images-commande-container figure{
@@ -385,27 +371,20 @@ h2.titre-2-commander{
 }
 
 .container-boutons{
-    background-color: #3B8E46 !important;
+width: 100% !important;
+padding: 0 !important;
 }
 
-/* .bouton-ok-container{
-    width: 90px !important;
-} */
-
-.bouton-ok{
-    background-color: #3B8E46 !important;
-    /* width: 90px !important; */
+.bouton-ok-container{
+    width: 100% !important;
+    margin-left: -50px !important;
 }
+
 
 /*SECTION FORMULAIRE DE COMMANDE*/
-.colonne-form-container{
-    background-color: #3B8E46 !important;
-    color: #fff !important;
-    padding-bottom: 50px !important;
-}
 
-.commander-form-container{
-    padding-bottom: 30px !important;
+.form-container{
+    padding: 50px 0 !important;
 }
 
 .ff-t-column-1{
@@ -417,22 +396,15 @@ h2.titre-2-commander{
     padding-left: 30px !important;
 }
 
-.champ-form-commande-container{
+.champ-ff{
     width: 392px !important;
     padding: 20px 0 0 0 !important;
 }
 
-/***SECTION GALLERIE COMMANDE***/
-h2.titre-2-commander{
-    color: #fff !important;
-    font-size: 30px !important;
-    font-weight: 700 !important;
+.btn-ff-container{
+    padding-top: 50px !important;
 }
 
-div.gallerie-commande-container,
-figure.gallerie-commande-container{
-    background-color: #3B8E46 !important;
-}
 
 
 
