@@ -398,17 +398,29 @@ img.img-pdp-rencontrer{
 
 /***SECTION COMMANDE ***/
 .h2-commander{
-    padding: 50px 0 20px 300px !important;
+    padding: 50px 0 20px 287px !important;
 }
 
 .images-commande-container{
     display: flex;
     justify-content: center !important;
-    padding: 0 0 10px 0 !important;
+    padding: 0 0 40px 0!important;
 }
 
-.images-commande-container figure{
+.images-commande-container div{
+    flex-basis: 860px !important;
+}
+
+.image-commande-container {
     padding: 0 !important;
+    width: 860px !important;
+}
+ 
+.cln-command{
+    width: 192px !important;
+}
+.cln-commande img{
+    width: 192px !important;
 }
 
 .container-boutons{
@@ -419,6 +431,7 @@ padding: 0 !important;
 .bouton-ok-container{
     width: 100% !important;
     margin-left: -50px !important;
+    padding-top: 10px !important;
 }
 
 /*SECTION FORMULAIRE DE COMMANDE*/
