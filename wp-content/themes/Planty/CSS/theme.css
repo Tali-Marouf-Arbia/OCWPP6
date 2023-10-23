@@ -463,7 +463,12 @@ padding: 0 !important;
     width: 396px !important;
 }
 
-.ff-el-form-control{
+.champ-ff label{
+    padding-bottom: 10px !important;
+    font-size: 20px !important;
+}
+
+.ff-el-form-control{ /*contradiction avec la height du champs Message du ff contact page nous rencontrer*/
     height: 71px !important;
 }
 
