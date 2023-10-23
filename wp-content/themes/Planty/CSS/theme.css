@@ -116,10 +116,6 @@ p{
     font-size: 20px !important;
 }
 
-
-
-
-
 /*** ACCUEIL ***/
 /* Titre Principal h1 */
 .h1-accueil{
@@ -357,10 +353,6 @@ p.p-mentions{
     font-size: 20px !important;
 }
 
-.ff-el-input-content{
-    height: 71px !important;
-}
-
 .champ-ff-contact-message{
     height: 250px !important;
 }
@@ -388,13 +380,7 @@ img.img-pdp-rencontrer{
 
 .entry-content hr{
     color: #fff !important;
-    display: flex;
-    justify-content: center !important;
 }
-
-/* hr{
-    width: 860px !important;
-} */
 
 /***SECTION COMMANDE ***/
 .h2-commander{
@@ -415,11 +401,12 @@ img.img-pdp-rencontrer{
     padding: 0 !important;
     width: 860px !important;
 }
- 
-.cln-command{
-    width: 192px !important;
+
+.cln-commande.image-commande-container{
+    flex-basis: 192px !important;
 }
-.cln-commande img{
+
+.img-cln-commande{
     width: 192px !important;
 }
 
@@ -431,50 +418,64 @@ padding: 0 !important;
 .bouton-ok-container{
     width: 100% !important;
     margin-left: -50px !important;
-    padding-top: 10px !important;
+    padding-top: 15px !important;
+    margin-right: -9px !important;
 }
 
 /*SECTION FORMULAIRE DE COMMANDE*/
 .form-commande-container{
-    padding-bottom: 70px !important;
+    padding-bottom: 80px !important;
     padding-top: 50px !important;
 }
 
 .titre-ff-cln-1{
     width: 515px !important;
+    padding-right: 16px !important;
 }
 
 .titre-ff-cln-2{
-    padding-left: 35px !important;
+    padding-left: 38px !important;
     border-left: 1px solid #fff !important;
-    margin-left: -12px !important;
+    margin-left: -22px !important;
+}
+
+.ff-commande-container{
+    display: flex;
+    justify-content: center !important;
+}
+
+.ff-container{
+    width: 90% !important;
 }
 
 .ff-t-column-1{
-    padding-left: 280px !important;
+    padding-right: 65px !important;
 }
 
 .ff-t-column-2{
-    border-left: 1px solid white !important;
-    padding-left: 35px !important;
-}
+    border-left: 1px solid #fff !important;
+    margin-left: -40px !important;
+    padding-left: 40px !important;
+} 
 
 .champ-ff{
-    width: 392px !important;
     padding: 20px 0 0 0 !important;
+    width: 396px !important;
+}
+
+.ff-el-form-control{
+    height: 71px !important;
 }
 
 .btn-ff-container{
     padding-top: 50px !important;
 }
 
-
 .btn-ff-container button{
     text-transform: capitalize !important;
     font-size: 15px !important;
     padding: 15px 50px !important;
-    /* margin-left: 30px !important; */
-}
+} 
 
 
 
@@ -483,4 +484,3 @@ padding: 0 !important;
 .post-meta-wrapper {
     display: none !important;
 }
-
