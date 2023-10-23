@@ -112,6 +112,10 @@ header, main, footer{
     font-weight: 700 !important;
 }
 
+p{
+    font-size: 20px !important;
+}
+
 
 
 
@@ -145,9 +149,9 @@ header, main, footer{
 .p-energie{
     margin: 0 auto !important;
     padding: 40px 0 80px 0 !important;
-    width: 497px !important;
-    font-size: 20px !important;
+    width: 400px !important;
     font-weight: 400 !important;
+    line-height: 24px !important;
 }
 
 /* SECTION LES GOUTS*/
@@ -165,17 +169,18 @@ header, main, footer{
 
 .img-gouts-container{
     margin: 0 auto !important;
-    padding: 30px 300px 0 300px !important;
+    padding: 30px 330px 0 330px !important;
 }
 
 .img-gouts{
-    padding: 5px;
+    padding: 8px;
+
 }
 
 /*bouton commander */
 .btn-commander-container{
     margin: 0 auto !important;
-    padding: 30px 0 20px 0!important;
+    padding: 40px 0 20px 0!important;
 }
 
 .btn-commander a{
@@ -277,12 +282,6 @@ p.p-mentions{
     letter-spacing: 0,5px !important;
 }
 
-.p-media-rencontrer{
-    font-size: 20px !important;
-}
-
-
-
 /*section L'équipe*/
 .h2-equipe{
     padding: 40px 0 40px 0 !important;
@@ -323,8 +322,9 @@ p.p-mentions{
 .img-branche{
     width: 191px !important;
     height: 200px !important;
-    margin-top: 100px !important;
+    margin-top: 115px !important;
 }
+
 
 /*section du formulaire*/
 .h2-form-contact{
@@ -333,19 +333,22 @@ p.p-mentions{
 }
 
 .img-ff-contact-container{
-    padding-right: 55px !important;
-    padding-bottom: 38px !important;
+    padding-right: 105px !important;
+    padding-bottom: 50px !important;
 }
 
 .ff-contact-container{
     display: flex;
     justify-content: center !important;
     padding-bottom: 30px !important;
-    padding-right: 700px !important;
+}
+
+.ff-contact-container form{
+    margin-right: 750px !important;
 }
 
 .champ-ff-contact{
-    width: 383px !important;
+    width: 370px !important;
     padding-bottom: 20px !important;
 }
 
@@ -401,7 +404,7 @@ img.img-pdp-rencontrer{
 .images-commande-container{
     display: flex;
     justify-content: center !important;
-    padding-bottom: 20px !important;
+    padding: 0 0 10px 0 !important;
 }
 
 .images-commande-container figure{
@@ -418,20 +421,29 @@ padding: 0 !important;
     margin-left: -50px !important;
 }
 
-
 /*SECTION FORMULAIRE DE COMMANDE*/
+.form-commande-container{
+    padding-bottom: 70px !important;
+    padding-top: 50px !important;
+}
 
-.form-container{
-    padding: 50px 0 !important;
+.titre-ff-cln-1{
+    width: 515px !important;
+}
+
+.titre-ff-cln-2{
+    padding-left: 35px !important;
+    border-left: 1px solid #fff !important;
+    margin-left: -12px !important;
 }
 
 .ff-t-column-1{
-    padding-right: 15px !important;
+    padding-left: 280px !important;
 }
 
 .ff-t-column-2{
     border-left: 1px solid white !important;
-    padding-left: 30px !important;
+    padding-left: 35px !important;
 }
 
 .champ-ff{
@@ -444,8 +456,12 @@ padding: 0 !important;
 }
 
 
-
-
+.btn-ff-container button{
+    text-transform: capitalize !important;
+    font-size: 15px !important;
+    padding: 15px 50px !important;
+    /* margin-left: 30px !important; */
+}
 
 
 
