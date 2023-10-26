@@ -26,3 +26,15 @@ function add_admin_link($items, $args) {
 }
 
 
+function shortcode_personnalise_mon_formulaire() {
+  ob_start(); // Démarre la temporisation de la sortie
+  ?>
+  <div class="input-group">
+      <input class="quantity-field" max="" name="quantity" step="1" type="number" value="0" />
+      <input class="button-minus" type="button" value="-" data-field="quantity" />
+      <input class="button-plus" type="button" value="+" data-field="quantity" />
+  </div>
+  <?php
+  return ob_get_clean(); // Récupère le contenu mis en mémoire tampon et le renvoie
+}
+add_shortcode('mon_formulaire_shortcode', 'shortcode_personnalise_mon_formulaire');
