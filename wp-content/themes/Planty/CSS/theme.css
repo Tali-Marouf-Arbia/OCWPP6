@@ -683,3 +683,121 @@ input[type="number"] {
     background-color: #C02E44 !important;
 }
 
+
+/*****   CF7 COMMANDE   ****/
+.cf7-commande-container{
+    display: flex;
+    justify-content: center !important;
+}
+
+.cf7-commande-container form{
+    display: flex;
+    justify-content: center !important;
+    width: 860px !important;
+    flex-direction: column !important;
+}
+
+.form-commande-container{
+    width: 100% !important;
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    margin: 50px 0 50px 0 !important;
+}
+
+.form-commande-container label{
+    font-size: 20px !important;
+    margin-top: 30px !important;
+    margin-bottom: -20px !important;
+}
+
+.form-commande-container input{
+    border-radius: 7px !important;
+}
+
+.cln1-form-commande, .cln2-form-commande{
+    width: 50% !important;
+}
+
+.cln1-form-commande{
+    padding-right: 50px !important;
+}
+.cln2-form-commande{
+    border-left: 1px solid #fff !important;  
+    padding-left: 50px !important;  
+}
+
+.btn-form-commande-container{
+    display: flex;
+    justify-content: center !important;
+    padding-bottom: 50px !important;
+}
+
+.btn-form-commande{
+    width: 198px !important;
+    height: 55px !important;
+    background-color: #DC9F96 !important;
+    border-radius: 5px !important;
+    text-transform: capitalize !important;
+    text-decoration: none !important;
+    font-size: 15px !important;
+}
+
+.btn-form-commande:hover{
+    background-color: #C02E44 !important;
+}
+
+/****input groupe cf7 commande  ****/
+
+.input-groupe{
+    width: 82px !important;
+    display: flex;
+    flex-direction: row !important;
+}
+
+.input-form-commande{
+    width: 51px !important;
+    height: 60px !important;
+    border-radius: 5px 0 0 5px !important;
+    /* font-size: 16px !important;
+    font-family: 'Syne' !important;
+    font-weight: 400 !important; */
+}
+
+input.input-form-commande{
+    font-size: 16px !important;
+    font-family: 'Syne' !important;
+    font-weight: 400 !important;
+}
+
+.btns-produits{
+    width: 31px !important;
+    height: 60px !important;
+    border-radius: 0 5px 5px 0 !important;
+    background-color: #fff !important;
+    border: none !important;
+}
+
+.btn-plus, .btn-moins{
+    width: 31px !important;
+    height: 29px !important;
+    background-color: #E0B9B4 !important;
+    padding: 0 !important;
+    text-decoration: none !important;
+    font-weight: 400 !important;
+
+}
+
+.btn-plus:hover, .btn-moins:hover{
+    background-color: #C02E44 !important;
+}
+
+.btn-plus{
+    border-radius: 0 5px 0 0 !important;
+    margin-bottom: -3px !important;
+    padding-top: 2px !important;
+}
+
+.btn-moins{
+    border-radius: 0 0 5px 0 !important;
+}
