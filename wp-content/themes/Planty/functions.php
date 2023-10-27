@@ -8,6 +8,7 @@ function theme_enqueue_styles()
     wp_enqueue_style('theme-style', get_stylesheet_directory_uri() . '/css/theme.css', array(), filemtime(get_stylesheet_directory() . '/css/theme.css'));
 }
 
+/***HOOK***/
 // add_filter('wp_nav_menu_items','add_admin_link', 10, 2);
 // function add_admin_link($items, $args) {
 //   if (is_user_logged_in() && $args->theme_location == 'primary') {
@@ -25,16 +26,9 @@ function add_admin_link($items, $args) {
   return $items;
 }
 
-
-function shortcode_personnalise_mon_formulaire() {
-  ob_start(); // Démarre la temporisation de la sortie
-  ?>
-  <div class="input-group">
-      <input class="quantity-field" max="" name="quantity" step="1" type="number" value="0" />
-      <input class="button-minus" type="button" value="-" data-field="quantity" />
-      <input class="button-plus" type="button" value="+" data-field="quantity" />
-  </div>
-  <?php
-  return ob_get_clean(); // Récupère le contenu mis en mémoire tampon et le renvoie
+/****Charge ***/ 
+function ajouter_scripts_personnalises() {
+  wp_enqueue_script('custom-scripts', get_stylesheet_directory_uri() . '/custom-scripts.js', array('jquery'), '1.0', true);
 }
-add_shortcode('mon_formulaire_shortcode', 'shortcode_personnalise_mon_formulaire');
+add_action('wp_enqueue_scripts', 'ajouter_scripts_personnalises');
+
