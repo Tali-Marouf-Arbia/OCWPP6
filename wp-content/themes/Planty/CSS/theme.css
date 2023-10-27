@@ -299,9 +299,6 @@ p.p-mentions{
 .cln-equipe{
     padding-left: 40px !important;
 }
-/* .ff-el-input--content .fluent-expandable-icon {
-    display: none;
-} */
 
 .equipe-img{
     display: flex !important;
@@ -325,61 +322,6 @@ p.p-mentions{
     margin-top: 115px !important;
 }
 
-
-/*section du formulaire*/
-.h2-form-contact{
-    padding: 60px 0 30px 0 !important;
-    margin-top: 15px !important;
-}
-
-.img-ff-contact-container{
-    padding-right: 105px !important;
-    padding-bottom: 50px !important;
-}
-
-.ff-contact-container{
-    display: flex;
-    justify-content: center !important;
-    padding-bottom: 30px !important;
-}
-
-.ff-contact-container form{
-    margin-right: 750px !important;
-}
-
-.champ-ff-contact{
-    width: 370px !important;
-    padding-bottom: 20px !important;
-}
-
-.champ-ff-contact label{
-    padding-bottom: 8px !important;
-    font-size: 20px !important;
-}
-
-.champ-ff-contact-message{
-    height: 250px !important;
-}
-
-.ff-el-form-control{
-    resize: none !important;
-}
-
-.btn-ff-contact{
-    text-transform: capitalize !important;
-    font-size: 15px !important;
-    padding: 15px 50px !important;
-}
-
-.btn-ff-contact:hover{
-    color: #fff !important;
-}
-
-/*image de pied de page*/
-figure.img-pdp-rencontrer{
-    padding-top: 60px !important;
-}
-
 /** PAGE COMMANDER **/
 
 .entry-content hr::before, .entry-content hr::after, hr.styled-separator::before, hr.styled-separator::after{
@@ -387,7 +329,6 @@ figure.img-pdp-rencontrer{
 }
 
 hr{
-    /* color: #fff !important; */
     width: 50% !important;
 }
 
@@ -399,7 +340,7 @@ hr{
 .produits-container{
     display: flex;
     justify-content: center !important;
-    padding: 0 284px 60px 284px!important;
+    padding: 0 286px 30px 286px!important;
     }
 
 .produit-cln{
@@ -419,206 +360,12 @@ hr{
 
 
 
-.commandes-container{
-    padding: 0 284px 30px 284px !important;
-}
-
-.btns-commande-container{
-    padding: 10px 0 0 0 !important;
-    margin-left: -8px !important;
-    margin-right: 10px !important;
-}
-
-.images-commande-container{
-    display: flex;
-    justify-content: center !important;
-    padding: 0 0 20px 0!important;
-}
-
-.images-commande-container div{
-    flex-basis: 860px !important;
-}
-
-.image-commande-container {
-    padding: 0 !important;
-    width: 860px !important;
-}
-
-.cln-commande.image-commande-container{
-    flex-basis: 192px !important;
-}
-
-.img-cln-commande{
-    width: 192px !important;
-}
-
-.input-container{
-    padding-top: 5px !important;
-    margin: 0 -10px !important;
-}
-
-.container-boutons{
-width: 100% !important;
-padding: 0 !important;
-}
-
-.bouton-ok-container{
-    width: 100% !important;
-    margin-left: -50px !important;
-    padding-top: 15px !important;
-    margin-right: -9px !important;
-}
-
-.bouton-ok{
-    cursor: pointer !important;
-}
-
-
-/*SECTION FORMULAIRE DE COMMANDE*/
-
-.liste-container{
-    margin-top: -120px !important;
-    margin-bottom: 120px !important;
-}
-
-.liste-container input[type="number"]{
-    width: 83px !important;
-    height: 54px !important;
-}
-/* .liste-container input[type="number"]::after{
-content:url(../assets/plus.png) ;
-position:relative; 
-left:-3px;
-top:10px;
-} */
-
-#ff_4_numeric-field::after, #ff_4_numeric-field::before{
-    content:url(../assets/plus.png) ;
-    position:relative; 
-    left:-3px;
-    top:10px;
-}
-
-.ff-commande-container{
-    display: flex;
-    justify-content: center !important;
-    padding-bottom: 80px !important ;
-}
-
-h3.ff-el-section-title{
-    font-size: 30px !important;
-    font-weight: 700 !important;
-}
-
-.ff-el-group hr{ /*désactive les séparateurs par défaut des labels du ff-commande*/
-    display: none !important;
-}
-
-.ff-t-column-1[style="flex-basis: 50%;"]{
-    padding-right: 65px !important;
-}
-
-.ff-t-column-2[style="flex-basis: 50%;"]{
-    border-left: 1px solid #fff !important;
-    margin-left: -41px !important;
-    padding-left: 40px !important;
-} 
-
-.champ-ff{
-    padding: 20px 0 0 0 !important;
-    width: 396px !important;
-}
-
-.champ-ff label{
-    padding-bottom: 10px !important;
-    font-size: 20px !important;
-}
-
-.btn-ff-container{
-    padding-top: 50px !important;
-}
-
-.btn-ff-container button{
-    text-transform: capitalize !important;
-    font-size: 15px !important;
-    padding: 15px 50px !important;
-} 
-
-
-
-
 /* Masque les metas icone et txt 'rechercher au dessus du footer SUPPRIMER LA DIV DS LE HTML'  */
 .post-meta-wrapper {
     display: none !important;
 }
 
 
-
-
-
-
-/* 
-input,
-textarea {
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-  margin: 0;
-  outline: none;
-  padding: 10px;
-}
-
-input[type="button"] {
-  -webkit-appearance: button;
-  cursor: pointer;
-}
-
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-}
-
-.input-group {
-  clear: both;
-  margin: 15px 0;
-  position: relative;
-}
-
-.input-group input[type='button'] {
-  background-color: #eeeeee;
-  min-width: 38px;
-  width: auto;
-  transition: all 300ms ease;
-}
-
-.input-group .button-minus,
-.input-group .button-plus {
-  font-weight: bold;
-  height: 38px;
-  padding: 0;
-  width: 38px;
-  position: relative;
-}
-
-.input-group .quantity-field {
-  position: relative;
-  height: 38px;
-  left: -6px;
-  text-align: center;
-  width: 62px;
-  display: inline-block;
-  font-size: 13px;
-  margin: 0 0 5px;
-  resize: vertical;
-}
-
-.button-plus {
-  left: -13px;
-}
-
-input[type="number"] {
-  -moz-appearance: textfield;
-  -webkit-appearance: none;
-} */
 
 
 /*** CF7 CONTACT ***/
@@ -759,9 +506,6 @@ input[type="number"] {
     width: 51px !important;
     height: 60px !important;
     border-radius: 5px 0 0 5px !important;
-    /* font-size: 16px !important;
-    font-family: 'Syne' !important;
-    font-weight: 400 !important; */
 }
 
 input.input-form-commande{
@@ -800,4 +544,11 @@ input.input-form-commande{
 
 .btn-moins{
     border-radius: 0 0 5px 0 !important;
+}
+
+
+/*display none les btns d incrémentations par defaut du input type number*/
+.input-form-commande[type="number"] { 
+    -moz-appearance: textfield;
+    appearance: textfield;
 }
