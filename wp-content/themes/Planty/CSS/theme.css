@@ -44,7 +44,7 @@ header, main, footer{
 
 .primary-menu li a{
     color: #000 !important;
-    margin-right: 30px !important;
+    margin-right: 40px !important;
     text-decoration: none !important;
 }
 
@@ -118,6 +118,11 @@ p{
 
 .height-champ{
     height: 71px !important;
+}
+
+/* Masque les metas icone et txt   */
+.post-meta-wrapper {
+    display: none !important;
 }
 
 /*** ACCUEIL ***/
@@ -345,42 +350,17 @@ p.p-mentions{
     margin-top: 115px !important;
 }
 
-/** PAGE COMMANDER **/
-
-.entry-content hr::before, .entry-content hr::after, hr.styled-separator::before, hr.styled-separator::after{
-    content: none !important;
-}
-
-/***SECTION COMMANDE ***/
-.h2-commander{
-    padding: 30px 0 20px 287px !important;
-}
-
-.produits-container{
-    padding: 0 288px 100px 288px!important;
-    }
-
-
-/* Masque les metas icone et txt   */
-.post-meta-wrapper {
-    display: none !important;
-}
-
-
-
-
-/*** CF7 CONTACT ***/
-
-
+/*** Section CF7 CONTACT ***/
 .form-contact-colonne-container{
     display: flex !important;
     justify-content: center !important;
 }
+
 .img-ff-contact{
     display: flex;
     justify-content: center !important;
     margin-left: 130px !important;
-    margin-bottom: 25px !important;
+    margin-bottom: 20px !important;
 }
 
 .form-contact-colonne-2-container{
@@ -427,7 +407,6 @@ p.p-mentions{
     height: 55px !important;
     font-weight: 400 !important;
     font-size: 15 px !important;
-
 }
 
 .btn-form-contact:hover{
@@ -435,7 +414,118 @@ p.p-mentions{
 }
 
 
-/*****   CF7 COMMANDE   ****/
+/** PAGE COMMANDER **/
+.entry-content hr::before, .entry-content hr::after, hr.styled-separator::before, hr.styled-separator::after{
+    content: none !important;
+}
+
+/***SECTION COMMANDE ***/
+.h2-commander{
+    padding: 30px 0 20px 287px !important;
+}
+
+.produits-container{
+    padding-bottom: 100px !important;
+    width: 100% !important;
+}
+
+.produits-container div.wp-block-column{
+    display: flex;
+    justify-content: center !important;
+}
+
+.produits-clns{
+    width: 910px !important;
+    padding: 0 25px 0 25px !important;
+    height: 100% !important;
+}
+
+/***** SECTION DU CF7 COMMANDE   ****/
+
+/****input-groupe cf7 commande  ****/
+
+.input-groupe-container{
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    width: 860px !important;
+    margin-top: -90px !important;
+}
+
+.input-groupe{
+    width: 184.5px !important;
+    display: flex;
+    flex-direction: row !important;
+}
+
+.input-form-commande{
+    width: 51px !important;
+    height: 60px !important;
+    border-radius: 5px 0 0 5px !important;
+}
+
+input.input-form-commande{
+    font-size: 16px !important;
+    font-family: 'Syne' !important;
+    font-weight: 400 !important;
+}
+
+.btns-produits{
+    width: 31px !important;
+    height: 60px !important;
+    border-radius: 0 5px 5px 0 !important;
+    background-color: #E0B9B4 !important;
+    border: none !important;
+    overflow: hidden !important;
+}
+
+.btn-plus, .btn-moins{
+    width: 31px !important;
+    height: 29px !important;
+    background-color: #E0B9B4 !important;
+    padding: 0 !important;
+    text-decoration: none !important;
+    font-weight: 400 !important;
+    font-size: 20px !important;
+}
+
+.btn-plus:hover, .btn-moins:hover{
+    background-color: #C02E44 !important;
+}
+
+.btn-plus{
+    border-bottom: 1px solid #fff !important;
+}
+
+.btn-moins{
+    border-top: 1px solid #fff !important;
+}
+
+.btn-ok-container{
+    padding-left: 10px !important;
+}
+
+.btn-ok{
+    background-color: #E0B9B4 !important;
+    width: 94px !important;
+    height: 60px !important;
+    border-radius: 5px !important;
+    text-decoration: none !important;
+    font-size: 15px !important;
+    font-weight: 400 !important;
+}
+
+.btn-ok:hover{
+    background-color: #C02E44 !important;
+}
+
+/*display none les btns d incrémentations par defaut du input type number du form de commande*/
+.input-form-commande[type="number"] { 
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+/*Formulaire de commande - div infos et livraison*/
 .cf7-commande-container{
     display: flex;
     justify-content: center !important;
@@ -493,99 +583,9 @@ p.p-mentions{
     text-decoration: none !important;
     font-size: 15px !important;
     font-weight: 400 !important;
-
 }
 
 .btn-form-commande:hover{
     background-color: #C02E44 !important;
 }
 
-/****input groupe cf7 commande  ****/
-
-.input-groupe-container{
-    display: flex;
-    flex-direction: row !important;
-    justify-content: space-between !important;
-    width: 860px !important;
-    margin-top: -90px !important;
-}
-
-.input-groupe{
-    width: 184.5px !important;
-    display: flex;
-    flex-direction: row !important;
-}
-
-/* .hr-cf7-commande{
-    color: #fff !important;
-    margin: 30px 0 !important;
-    background-color: #3B8E46 !important;
-} */
-
-.input-form-commande{
-    width: 51px !important;
-    height: 60px !important;
-    border-radius: 5px 0 0 5px !important;
-}
-
-input.input-form-commande{
-    font-size: 16px !important;
-    font-family: 'Syne' !important;
-    font-weight: 400 !important;
-}
-
-.btns-produits{
-    width: 31px !important;
-    height: 60px !important;
-    border-radius: 0 5px 5px 0 !important;
-    background-color: #E0B9B4 !important;
-    border: none !important;
-    overflow: hidden !important;
-}
-
-.btn-plus, .btn-moins{
-    width: 31px !important;
-    height: 29px !important;
-    background-color: #E0B9B4 !important;
-    padding: 0 !important;
-    text-decoration: none !important;
-    font-weight: 400 !important;
-    font-size: 20px !important;
-
-}
-
-.btn-plus:hover, .btn-moins:hover{
-    background-color: #C02E44 !important;
-}
-
-.btn-plus{
-    border-bottom: 1px solid #fff !important;
-}
-
-.btn-moins{
-    border-top: 1px solid #fff !important;
-}
-
-.btn-ok-container{
-    padding-left: 10px !important;
-}
-
-.btn-ok{
-    background-color: #E0B9B4 !important;
-    width: 94px !important;
-    height: 60px !important;
-    border-radius: 5px !important;
-    text-decoration: none !important;
-    font-size: 15px !important;
-    font-weight: 400 !important;
-}
-
-.btn-ok:hover{
-    background-color: #C02E44 !important;
-}
-
-/*display none les btns d incrémentations par defaut du input type number du form de commande*/
-.input-form-commande[type="number"] { 
-    -moz-appearance: textfield;
-    appearance: textfield;
-}
