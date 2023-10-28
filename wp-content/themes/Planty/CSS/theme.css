@@ -121,12 +121,18 @@ p{
 }
 
 /*** ACCUEIL ***/
-/* Titre Principal h1 */
-.h1-accueil{
-    margin: 0 !important;
-    padding: 80px 330px 100px 330px !important;
+/* Titre h1 accueil */
+.h1-cln-accueil{
+    display: flex;
+    justify-content: center !important;
+    width: 100%;
 }
 
+.h1-accueil{
+    width: 60% !important;
+}
+
+/* Image cannette */
 .img-accueil{
     margin: 0 !important;
     display: flex;
@@ -167,29 +173,47 @@ p{
     padding: 0 !important;
 }
 
-.img-gouts-container{
+.img-gouts-container div{
+    width: 100% !important;
     margin: 0 auto !important;
-    padding: 30px 330px 0 330px !important;
+    display: flex;
+    justify-content: center !important;
+}
+
+.img-gouts-container figure.wp-block-gallery{
+    display: flex;
+    justify-content: center !important;
+    width: 60% !important;
+    padding-top: 30px !important;
 }
 
 .img-gouts{
     padding: 8px;
-
 }
 
-/*bouton commander */
+/* bouton commander */
 .btn-commander-container{
     margin: 0 auto !important;
     padding: 40px 0 20px 0!important;
 }
 
-.btn-commander a{
+.btn-commander-accueil{
+    width: 198px !important;
+    height: 55px !important;
+}
+
+.btn-commander-accueil a{
+    width: 100% !important;
+    height: 100% !important;
     text-transform: capitalize !important;
     font-weight: 400 !important;
     font-size: 15px !important;
     padding: 15px 50px !important;
+    background-color: #E0B9B4 !important;
+    border-radius: 5px !important;
 }
-.btn-commander a:hover{
+
+.btn-commander-accueil a:hover{
     background-color: #C02E44 !important;
     text-decoration: none !important;
 }
@@ -252,12 +276,11 @@ p{
 /*** PAGE DES MENTIONS LEGALES ***/
 
 div.p-mentions-container{
-    padding: 0 100px 0 100px !important;
     text-align: justify !important;
 }
 
 p.p-mentions{
-    padding-bottom: 50px !important;
+    padding: 0 35px 50px 35px !important;
 }
 
 /*** PAGE NOUS RENCONTER ***/
