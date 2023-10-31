@@ -120,6 +120,11 @@ p{
     height: 71px !important;
 }
 
+.justify-center{
+    display: flex;
+    justify-content: center !important;
+}
+
 /* Masque les metas icone et txt   */
 .post-meta-wrapper {
     display: none !important;
@@ -135,6 +140,7 @@ p{
 
 .h1-accueil{
     width: 60% !important;
+    padding: 80px 0 !important;
 }
 
 /* Image cannette */
@@ -303,6 +309,7 @@ p.p-mentions{
 
 .media-container-rencontrer div{
     width: 760px !important;
+    padding-bottom: 0 !important;
 }
 
 .h1-rencontrer{
@@ -312,7 +319,7 @@ p.p-mentions{
 
 /*section L'équipe*/
 .h2-equipe{
-    padding: 40px 0 40px 0 !important;
+    padding: 0 0 40px 0 !important;
 }
 
 .equipe-container{
@@ -351,15 +358,17 @@ p.p-mentions{
 }
 
 /*** Section CF7 CONTACT ***/
+.ff-contact-container{
+    width: 500px !important;
+}
+
 .form-contact-colonne-container{
     display: flex !important;
     justify-content: center !important;
 }
 
 .img-ff-contact{
-    display: flex;
-    justify-content: center !important;
-    margin-left: 130px !important;
+    margin-left: -50px !important;
     margin-bottom: 20px !important;
 }
 
@@ -367,9 +376,9 @@ p.p-mentions{
     margin-left: -430px !important;
 }
 
-.form-contact-container{
+/* .form-contact-container{
     width: 383px !important;
-}
+} */
 
 .form-contact-container h2{
     display: flex;
