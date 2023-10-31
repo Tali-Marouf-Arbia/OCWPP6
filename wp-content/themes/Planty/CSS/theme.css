@@ -424,18 +424,32 @@ p.p-mentions{
 
 
 /** PAGE COMMANDER **/
-.entry-content hr::before, .entry-content hr::after, hr.styled-separator::before, hr.styled-separator::after{
-    content: none !important;
+.p-hr{
+    width: 860px !important;
+    border: 1px solid white !important;
+    margin: 0 auto !important;
 }
 
+/* 
+.entry-content hr::before, .entry-content hr::after, hr.styled-separator::before, hr.styled-separator::after{
+    content: none !important;
+} */
+
 /***SECTION COMMANDE ***/
-.h2-commander{
-    padding: 30px 0 20px 287px !important;
-}
 
 .produits-container{
     padding-bottom: 100px !important;
-    width: 100% !important;
+    width: 100% !important;  
+    display: flex;
+    flex-direction: column; 
+    justify-content: center !important;
+}
+
+.h2-commander{
+    display: flex !important;
+    width: 860px !important;
+    padding-top: 30px !important;
+    margin-bottom: -20px !important;
 }
 
 .produits-container div.wp-block-column{
@@ -573,7 +587,7 @@ input.input-form-commande{
     padding-right: 50px !important;
 }
 .cln2-form-commande{
-    border-left: 1px solid #fff !important;  
+    border-left: 2px solid #fff !important;  
     padding-left: 50px !important;  
 }
 
@@ -597,4 +611,244 @@ input.input-form-commande{
 .btn-form-commande:hover{
     background-color: #C02E44 !important;
 }
+
+
+@media screen and (min-width: 780px) and (max-width: 1000px) {
+    
+.cf7-commande-container form{
+    width: 100% !important;
+}
+
+
+.wp-block-contact-form-7-contact-form-selector{
+    width: 100% !important;
+}
+/* /*
+.input-groupe-container{
+    width: 100% !important;
+} */
+
+.produits-clns{
+padding: 0 !important;
+width: 100% !important;
+}
+
+.h2-commander{
+    display: flex;
+    justify-content: center !important;
+}
+
+.p-hr{
+    width: 100% !important;
+}
+
+.input-groupe-container{
+    /* padding: 0 15px !important; */
+    width: 100% !important;
+} 
+
+/***ACCUEIL***/
+
+.comm-container{
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.colonne-comm{
+    width: 100% !important ;
+    padding-left: 10px !important;
+}
+
+.colonne-comm figure{
+    width: 90% !important;
+}
+
+.colonne-comm div{
+    padding: 0 !important;
+}
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 780px) {
+
+h1.h1-commander{
+    font-size: 30px !important;
+}
+
+h2.h2-commander{
+    display: flex;
+    justify-content: center !important;
+    font-size: 25px !important;
+}
+
+.p-hr{
+    width: 98% !important;
+}
+
+.produits-clns{
+    width: 80% !important;
+    justify-content: start !important;
+}
+
+.input-groupe-container{
+    margin-top: -650px !important;
+    width: 100% !important;
+    display: flex;
+    flex-direction: column !important;
+}
+
+.input-groupe{
+    display: flex;
+    flex-direction: column !important;
+    margin-bottom: -30px !important;
+    /* padding-bottom: 150px !important; */
+}
+
+.cf7-commande-container form{
+    width: 100% !important;
+}
+
+.btns-produits{
+    margin-top: -60px !important;
+    margin-bottom: 10px !important;
+    margin-left: 50px !important;
+}
+.btn-ok-container{
+    padding: 0 !important;
+    margin-bottom: 50px !important;
+}
+
+.btn-ok{
+    width: 83px !important;
+}
+
+.img-produit{
+    width: 60% !important;
+}
+
+.form-commande-container{
+    display: flex;
+    flex-direction: column !important;
+}
+.form-commande-container div{
+    width: 100% !important;
+}
+
+.cln1-form-commande{
+    padding-right: 0 !important;
+}
+
+.cln2-form-commande{
+    border: none !important;
+    padding-left: 0 !important;
+    padding-top: 50px !important;
+}
+
+
+/*** ACCEUIL ***/
+.h1-accueil{
+    font-size: 22px !important;
+    width: 100% !important;
+}
+
+.h1-cln-accueil{
+    height: 200px !important;
+    margin-bottom: 20px !important;
+}
+
+.img-accueil{
+    height: 250px !important;
+}
+
+.img-accueil img{
+    width: 100% !important;
+}
+
+.img-gouts-container figure.wp-block-gallery{
+    width: 100% !important;
+}
+
+.img-gouts{
+    padding: 0 !important;
+}
+
+.p-gouts{
+    font-size: 18px !important;
+}
+
+.p-energie{
+    width: 100% !important;
+    font-size: 18px !important;
+    padding: 40px 10px 80px 10px !important;
+}
+
+.h2-comm{
+    font-size: 24px !important;
+}
+
+.comm-container{
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.colonne-comm{
+    width: 100% !important ;
+    padding-left: 10px !important;
+}
+
+.colonne-comm figure{
+    width: 50% !important;
+}
+
+.colonne-comm div{
+    padding: 0 !important;
+}
+.img-pdp{
+    padding-top: 40px !important;
+}
+
+
+/**** NOUS RENCONTRER***/
+.h1-rencontrer{
+    padding: 20px 0 0 0 !important;
+    font-size: 22px !important;
+}
+
+.p-media-rencontrer{
+    font-size: 18px !important;
+    padding: 30px 0 !important;
+}
+
+.h2-equipe{
+    padding: 30px 0 !important ;
+}
+.equipe-container{
+    padding-left: 0 !important;
+}
+
+.img-branche{
+    margin: 0 !important;
+    margin-left: 120px !important;
+}
+
+.ff-contact-container{
+    width: 100% !important;
+}
+
+.form-contact-colonne-1-container{
+    display: none !important;
+}
+
+.form-contact-colonne-2-container{
+    margin: 0 !important;
+}
+
+
+.img-pdp-rencontrer{
+    padding-top: 50px !important;
+}
+}
+
 
