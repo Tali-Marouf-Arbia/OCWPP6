@@ -25,7 +25,7 @@ function add_admin_link($items, $args) {
 
   // Vérifie les 2 conditions
   if (is_user_logged_in() && $args->theme_location == 'primary') {
-    $admin_link = '<li><a href="'. get_admin_url() .'">Admin</a></li>';
+    $admin_link = '<li><a href="'. get_admin_url() .'">Admin</a>';
     
     // Transforme les éléments en un tableau pour manipuler les positions.
     $items_array = explode('</li>', $items);
