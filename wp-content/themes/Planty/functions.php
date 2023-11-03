@@ -24,7 +24,7 @@ add_filter('wp_nav_menu_items','add_admin_link', 10, 2);
 function add_admin_link($items, $args) {
 
   // Vérifie les 2 conditions
-  if (is_user_logged_in() && $args->theme_location == 'primary') {
+  if (is_user_logged_in() && ($args->theme_location == 'primary' || $args->theme_location == 'mobile' || $args->theme_location == 'tablet')) {
     $admin_link = '<li><a href="'. get_admin_url() .'">Admin</a>';
     
     // Transforme les éléments en un tableau pour manipuler les positions.
@@ -38,4 +38,6 @@ function add_admin_link($items, $args) {
   }
   return $items;
 }
+
+
 

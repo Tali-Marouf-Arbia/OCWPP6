@@ -296,16 +296,25 @@ p.p-mentions{
 
 /*** PAGE NOUS RENCONTER ***/
 
+
+
 .media-rencontrer-container{
     padding: 0 !important;
     width: 100% !important;
+    display: flex;
+    justify-content: center !important;
 }
 
+.nous-rencontrer-container{
+    display: flex;
+    justify-content: center !important;
+    width: 90% !important;
+}
 
 .media-container-rencontrer{
     display: flex;
     justify-content: center !important;
-
+    width: 80% !important;
 } 
 
 .media-container-rencontrer figure{
@@ -322,33 +331,22 @@ p.p-mentions{
 
 .h1-rencontrer{
     padding: 140px 0 20px 0 !important;
-    letter-spacing: 0,5px !important;
+    letter-spacing: 0.5px !important;
 }
 
 /*section L'équipe*/
+
+.equipe-big-container{
+    margin-bottom: -10px !important;
+}
+
 .h2-equipe{
     padding: 0 0 40px 0 !important;
 }
-/* 
-.equipe-container{
-    padding: 0 0 17px 250px !important;
-}
-
-.cln-container{
-    display: flex;
-    justify-content: center !important;
-}
-
-.cln-equipe{
-    padding-left: 40px !important;
-} */
-
-
-
 
 .equipe-container{
-    padding: 0 0 17px 140px !important;
-    width: 90% !important;
+    /* padding: 0 0 17px 140px !important; */
+    width: 80% !important;
     margin: 0 !important;
 }
 
@@ -356,16 +354,11 @@ p.p-mentions{
     width: 100% !important;
     display: flex;
     justify-content: end !important;
-
 }
 
 .cln-equipe{
     padding: 0 !important;
 }
-
-
-
-
 
 .equipe-img{
     display: flex !important;
@@ -408,10 +401,6 @@ p.p-mentions{
     margin-left: -430px !important;
 }
 
-/* .form-contact-container{
-    width: 383px !important;
-} */
-
 .form-contact-container h2{
     display: flex;
     justify-content: center !important;
@@ -447,7 +436,7 @@ p.p-mentions{
     width: 198px !important;
     height: 55px !important;
     font-weight: 400 !important;
-    font-size: 15 px !important;
+    font-size: 15px !important;
 }
 
 .btn-form-contact:hover{
@@ -458,16 +447,9 @@ p.p-mentions{
 /** PAGE COMMANDER **/
 .p-hr{
     width: 860px !important;
-    border: 1px solid white !important;
+    border-top: 1px solid white !important;
     margin: 0 auto !important;
 }
-
-/* 
-.entry-content hr::before, .entry-content hr::after, hr.styled-separator::before, hr.styled-separator::after{
-    content: none !important;
-} */
-
-/***SECTION COMMANDE ***/
 
 .produits-container{
     padding-bottom: 100px !important;
@@ -574,7 +556,7 @@ input.input-form-commande{
     background-color: #C02E44 !important;
 }
 
-/*display none les btns d incrémentations par defaut du input type number du form de commande*/
+/**display none les btns d incrémentations par defaut du input type number du form de commande**/
 .input-form-commande[type="number"] { 
     -moz-appearance: textfield;
     appearance: textfield;
@@ -619,7 +601,7 @@ input.input-form-commande{
     padding-right: 50px !important;
 }
 .cln2-form-commande{
-    border-left: 2px solid #fff !important;  
+    border-left: 1px solid #fff !important;  
     padding-left: 50px !important;  
 }
 
@@ -644,12 +626,51 @@ input.input-form-commande{
     background-color: #C02E44 !important;
 }
 
-
-
-
 /****** TABLETTE *******/
 
-@media screen and (min-width: 780px) and (max-width: 1000px) {
+@media screen and (min-width: 784px) and (max-width: 1000px) {
+
+
+/**** Nav **** Mob ****/
+.toggle-inner{
+    color: #3B8E46 !important;
+}
+
+.toggle-inner:hover{
+    color: #DC9F96 !important;
+}
+
+.toggle-text{
+    color: #3B8E46 !important;
+    text-decoration: none !important;
+}
+
+.toggle-text:hover{
+    transition: all 0.33s ease-in-out; 
+    transform: scale(1.1) translateY(0px);
+    color: #DC9F96 !important;
+
+}
+
+.ancestor-wrapper a{
+    color: #DC9F96 !important;
+    text-decoration: none !important;
+}
+
+.ancestor-wrapper a:hover{
+    text-decoration: none !important;
+    color: #C02E44 !important;
+}
+
+.close-nav-toggle span.toggle-text{
+    text-decoration: none !important;
+    color: #DC9F96 !important;
+}
+
+.close-nav-toggle span.toggle-text:hover{
+    color: #C02E44 !important;
+    text-decoration: none !important;
+}
 
 /**** PAGE ACCUEIL **** TAB ***/
 
@@ -713,10 +734,18 @@ input.input-form-commande{
 /**** Page Nous rencontrer *** TAB***/
 /*section l'equipe*/
 
+.media-container-rencontrer figure{
+    display: none !important;
+}
+
+h1.h1-rencontrer{
+    padding-top: 0 !important;
+}
+
 .equipe-container{
-    padding: 0 0 17px 0 !important;
     width: 90% !important;
     margin-right: -50px !important;
+    padding: 0 0 10px 0 !important;
 }
 
 .media-equipe-container{
@@ -731,22 +760,16 @@ input.input-form-commande{
 }
 
 .img-branche{
-    margin: 0 !important;
+    width: 80% !important;
+    margin: 80px 0 0 0 !important;
     display: flex;
     justify-content: center;
     align-items: end !important;
-    margin-top: 75px !important;
 }
 
-.img-branche img{
-    width: 60% !important;
-    margin-right: 100px !important;
+.equipe-big-container{
+    margin-bottom: -10px !important;
 }
-
-.equipe-container div:last-child{
-    margin-bottom: -150px !important;
-}
-
 
 /*** Page Commander *** TAB ***/
 
@@ -783,7 +806,48 @@ width: 100% !important;
 }
 
 /********* MOBILE ****************/
-@media screen and (min-width: 320px) and (max-width: 780px) { 
+@media screen  and (max-width: 783px) { 
+
+/**** Nav **** Mob ****/
+.toggle-inner{
+    color: #3B8E46 !important;
+}
+
+.toggle-inner:hover{
+    color: #DC9F96 !important;
+}
+
+.toggle-text{
+    color: #3B8E46 !important;
+    text-decoration: none !important;
+}
+
+.toggle-text:hover{
+    transition: all 0.33s ease-in-out; 
+    transform: scale(1.1) translateY(0px);
+    color: #DC9F96 !important;
+
+}
+
+.ancestor-wrapper a{
+    color: #DC9F96 !important;
+    text-decoration: none !important;
+}
+
+.ancestor-wrapper a:hover{
+    text-decoration: none !important;
+    color: #C02E44 !important;
+}
+
+.close-nav-toggle span.toggle-text{
+    text-decoration: none !important;
+    color: #DC9F96 !important;
+}
+
+.close-nav-toggle span.toggle-text:hover{
+    color: #C02E44 !important;
+    text-decoration: none !important;
+}
 
 /*** ACCEUIL *** Mob ***/
 .h1-accueil{
@@ -857,14 +921,22 @@ width: 100% !important;
 
 
 /**** NOUS RENCONTRER*** Mob ***/
-.h1-rencontrer{
-    padding: 20px 0 0 0 !important;
+h1.h1-rencontrer{
+    padding: 18px 0 0 0 !important;
     font-size: 22px !important;
 }
 
+.media-container-rencontrer div{
+    padding: 0 !important;
+}
+
 .p-media-rencontrer{
-    font-size: 18px !important;
-    padding: 30px 0 !important;
+    font-size: 20px !important;
+    padding: 30px 15px !important;
+}
+
+.media-container-rencontrer{
+    width: 100% !important;
 }
 
 .h2-equipe{
@@ -883,7 +955,7 @@ width: 100% !important;
 
 .img-branche{
     margin: 0 !important;
-    margin-left: 120px !important;
+    /* margin-left: 120px !important; */
 }
 
 .ff-contact-container{
@@ -905,7 +977,7 @@ width: 100% !important;
 
 /*****Page Commander*** Mob***/
 h1.h1-commander{
-    font-size: 30px !important;
+    font-size: 26px !important;
 }
 
 h2.h2-commander{
@@ -918,23 +990,50 @@ h2.h2-commander{
     width: 98% !important;
 }
 
+.wp-block-contact-form-7-contact-form-selector{
+    width: 100% !important;
+}
+
+.wpcf7-form{
+    width: 100% !important;
+}
+
+.produits-container{
+    padding: 0 0 15px 0!important;
+}
+
 .produits-clns{
+    width: 100% !important;
+    display: block ruby !important;
+    padding: 0 !important;
+}
+
+.produit-cln{
+    width: 25% !important;
+}
+
+.img-produit{
     width: 80% !important;
-    justify-content: start !important;
+    display: contents !important;
 }
 
 .input-groupe-container{
-    margin-top: -650px !important;
+    margin-top: 15px !important;
     width: 100% !important;
-    display: flex;
-    flex-direction: column !important;
+    /* display: flex; */
+    /* flex-direction: column !important; */
 }
 
 .input-groupe{
     display: flex;
     flex-direction: column !important;
-    margin-bottom: -30px !important;
-    /* padding-bottom: 150px !important; */
+    justify-content: space-around !important;
+    width: 26% !important;
+    margin: 0 -20px -30px -20px !important;
+}
+
+.input-form-commande{
+    width: 100% !important;
 }
 
 .cf7-commande-container form{
@@ -942,21 +1041,12 @@ h2.h2-commander{
 }
 
 .btns-produits{
-    margin-top: -60px !important;
-    margin-bottom: 10px !important;
-    margin-left: 50px !important;
+    display: none !important;
 }
 .btn-ok-container{
+    width: 100% !important;
     padding: 0 !important;
-    margin-bottom: 50px !important;
-}
-
-.btn-ok{
-    width: 83px !important;
-}
-
-.img-produit{
-    width: 60% !important;
+    margin-top: 8px !important;
 }
 
 .form-commande-container{
@@ -976,6 +1066,17 @@ h2.h2-commander{
     padding-left: 0 !important;
     padding-top: 50px !important;
 }
+
+/***Page des Mentions Légales*** Mob ***/
+h1.h1-mentions{
+    font-size: 30px !important;
+    padding: 30px 0 !important;
+}
+
+p.p-mentions{
+    padding: 0 15px !important;
+}
+
 
 }
 

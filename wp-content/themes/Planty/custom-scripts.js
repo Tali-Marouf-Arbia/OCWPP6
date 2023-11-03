@@ -21,6 +21,16 @@ btnMoins.forEach(function(button) {
     });
 });
 
+// btnPlus.forEach(function(button) {
+//     button.addEventListener('click', function() {
+//         var inputField = this.closest('.input-groupe').querySelector('.input-form-commande');
+//         inputField.value = parseInt(inputField.value) + 1;
+//         console.log('Bouton + cliqué');
+//         console.log('Nouvelle valeur : ' + inputField.value);
+//     });
+// });
+
+
 
 
 // function validerFormulaire() {

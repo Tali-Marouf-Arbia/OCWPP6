@@ -3,8 +3,5 @@
         <a href="http://localhost/Planty/mentions-legales/">Mentions légales</a>
     </div>
 </footer>
-
-
-
-	</body>
+</body>
 </html>
