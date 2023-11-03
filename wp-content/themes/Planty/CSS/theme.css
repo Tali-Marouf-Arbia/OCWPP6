@@ -295,9 +295,6 @@ p.p-mentions{
 }
 
 /*** PAGE NOUS RENCONTER ***/
-
-
-
 .media-rencontrer-container{
     padding: 0 !important;
     width: 100% !important;
@@ -478,9 +475,7 @@ p.p-mentions{
 }
 
 /***** SECTION DU CF7 COMMANDE   ****/
-
 /****input-groupe cf7 commande  ****/
-
 .input-groupe-container{
     display: flex;
     flex-direction: row !important;
@@ -627,9 +622,7 @@ input.input-form-commande{
 }
 
 /****** TABLETTE *******/
-
 @media screen and (min-width: 784px) and (max-width: 1000px) {
-
 
 /**** Nav **** Mob ****/
 .toggle-inner{
@@ -780,10 +773,6 @@ h1.h1-rencontrer{
 .wp-block-contact-form-7-contact-form-selector{
     width: 100% !important;
 }
-/* /*
-.input-groupe-container{
-    width: 100% !important;
-} */
 
 .produits-clns{
 padding: 0 !important;
@@ -1017,6 +1006,10 @@ h2.h2-commander{
     display: contents !important;
 }
 
+.img-produit img{
+    height: 127px !important;
+}
+
 .input-groupe-container{
     margin-top: 15px !important;
     width: 100% !important;
@@ -1034,6 +1027,8 @@ h2.h2-commander{
 
 .input-form-commande{
     width: 100% !important;
+    height: 40px !important;
+    border-radius: 5px !important;
 }
 
 .cf7-commande-container form{
@@ -1047,6 +1042,22 @@ h2.h2-commander{
     width: 100% !important;
     padding: 0 !important;
     margin-top: 8px !important;
+}
+
+.btn-ok-container p{
+    display: flex;
+    justify-content: center !important;
+}
+
+.btn-ok{
+    width: 40px !important;
+    height: 40px !important;
+    padding: 0 !important;
+}
+
+.input-form-commande[type="number"] { 
+    -moz-appearance: initial;
+    appearance: initial;
 }
 
 .form-commande-container{
@@ -1076,7 +1087,5 @@ h1.h1-mentions{
 p.p-mentions{
     padding: 0 15px !important;
 }
-
-
 }
 
