@@ -249,8 +249,17 @@ p{
     padding-bottom: 10px !important;
 }
 
+
 .colonne-comm div{
     padding: 0 20px 0 30px !important;
+}
+
+.colonne-comm div:last-child {
+    padding-right: 0 !important;
+}
+
+.colonne-comm div:last-child h4{
+    padding: 0 !important;
 }
 
 .colonne-comm p{
@@ -766,15 +775,41 @@ h1.h1-rencontrer{
     margin-bottom: -10px !important;
 }
 
-/*** Page Commander *** TAB ***/
-
-.cf7-commande-container form{
-    width: 100% !important;
+/****** page commander ******* Tab ***/
+.produits-clns{
+    width: 860px !important;
+    padding: 0 !important;
 }
 
 .wp-block-contact-form-7-contact-form-selector{
+    max-width: 100% !important;
+}
+
+.cf7-commande-container form{
+    width: 100% !important
+}
+
+.input-groupe-container {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    margin-top: -90px !important;
+    max-width: 100% !important;
+  }
+
+  .input-groupe{
+    width: 100% !important;
+  }
+
+
+}
+/*** Page Commander *** TAB ***/
+
+/* .cf7-commande-container form{
     width: 100% !important;
 }
+
+
 
 .produits-clns{
 padding: 0 !important;
@@ -792,9 +827,7 @@ width: 100% !important;
 
 .input-groupe-container{
     /* padding: 0 15px !important; */
-    width: 100% !important;
-} 
-}
+
 
 /********* MOBILE ****************/
 @media screen  and (max-width: 783px) { 
@@ -968,7 +1001,7 @@ h1.h1-rencontrer{
 }
 
 
-/*****Page Commander*** Mob***/
+/***** Page Commander *** Mob***/
 h1.h1-commander{
     font-size: 26px !important;
 }
@@ -982,6 +1015,12 @@ h2.h2-commander{
 .p-hr{
     width: 98% !important;
 }
+
+.produits-container div.wp-block-column {
+    display: flex;
+    justify-content: center !important;
+    flex-direction: column;
+  }
 
 .wp-block-contact-form-7-contact-form-selector{
     width: 100% !important;
@@ -998,7 +1037,7 @@ h2.h2-commander{
 .produits-clns{
     width: 100% !important;
     display: block ruby !important;
-    padding: 0 !important;
+    padding: 0 13px 0 3px!important;
 }
 
 .produit-cln{
