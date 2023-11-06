@@ -685,13 +685,9 @@ input.input-form-commande{
     width: 100% !important;
 }
 
-/***Section Les Gouts***/
+/***Section Les Gouts*** tab ***/
 .img-gouts-container figure.wp-block-gallery{
-    width: 100% !important;
-}
-
-.img-gouts{
-    padding: 8px !important;
+    width: 60% !important;
 }
 
 .p-gouts{
@@ -704,10 +700,16 @@ input.input-form-commande{
     padding: 40px 15px 80px 15px !important;
 }
 
-/***section des commentaires****/
+/***section des commentaires**** tab ***/
 .h2-comm{
     font-size: 24px !important;
-    padding-bottom: 0 !important;
+    padding-bottom: 30px !important;
+}
+
+.comm-container{
+    width: 90% !important;
+    margin: 0 0 0 50px!important;
+    padding: 0 !important;
 }
 
 .colonne-comm{
@@ -858,13 +860,17 @@ width: 100% !important;
 }
 
 .img-gouts-container figure.wp-block-gallery{
-    width: 100% !important;
+    width: 90% !important;
 }
 
 .img-gouts{
     padding: 0 !important;
 }
 
+
+.h2-gouts{
+    font-size: 26px !important; 
+}
 .p-gouts{
     font-size: 18px !important;
 }
@@ -876,7 +882,7 @@ width: 100% !important;
 }
 
 .h2-comm{
-    font-size: 24px !important;
+    font-size: 22px !important;
 }
 
 .comm-container{
@@ -886,7 +892,7 @@ width: 100% !important;
 }
 
 .colonne-comm{
-    width: 100% !important ;
+    width: 80% !important ;
     padding-left: 10px !important;
 }
 
@@ -895,7 +901,6 @@ width: 100% !important;
 }
 
 .colonne-comm figure img{
-    width: 60% !important;
     margin-left: 60px !important;
 }
 
@@ -920,7 +925,7 @@ h1.h1-rencontrer{
 }
 
 .p-media-rencontrer{
-    font-size: 20px !important;
+    font-size: 18px !important;
     padding: 30px 15px !important;
 }
 
@@ -944,7 +949,6 @@ h1.h1-rencontrer{
 
 .img-branche{
     margin: 0 !important;
-    /* margin-left: 120px !important; */
 }
 
 .ff-contact-container{
@@ -1007,14 +1011,14 @@ h2.h2-commander{
 }
 
 .img-produit img{
-    height: 127px !important;
+    height: 100px !important;
+    padding: 1px !important;
 }
 
 .input-groupe-container{
     margin-top: 15px !important;
     width: 100% !important;
-    /* display: flex; */
-    /* flex-direction: column !important; */
+    padding : 0 3px !important;
 }
 
 .input-groupe{
