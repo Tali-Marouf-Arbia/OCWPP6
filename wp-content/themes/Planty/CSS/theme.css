@@ -249,7 +249,6 @@ p{
     padding-bottom: 10px !important;
 }
 
-
 .colonne-comm div{
     padding: 0 20px 0 30px !important;
 }
@@ -305,6 +304,7 @@ p.p-mentions{
 }
 
 /*** PAGE NOUS RENCONTER ***/
+
 .media-rencontrer-container{
     padding: 0 !important;
     width: 100% !important;
@@ -538,7 +538,6 @@ input.input-form-commande{
     border-bottom: 1px solid #fff !important;
 }
 
-
 .btn-ok-container{
     padding-left: 10px !important;
 }
@@ -732,13 +731,55 @@ input.input-form-commande{
 
 /**** Page Nous rencontrer *** TAB***/
 /*section l'equipe*/
+.media-container-rencontrer{
+    width: 100% !important;
+    display: flex;
+    flex-direction: column !important;
+}
 
 .media-container-rencontrer figure{
-    display: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+    justify-content: center !important;
+    display: flex;
+}
+
+.media-container-rencontrer figure img{
+    width: 250px !important;
+    height: 250px !important;
+    padding-bottom: 50px !important;
+}
+
+.media-container-rencontrer div{
+    width: 100% !important;
+    padding: 0 15px 30px 15px !important;
+}
+
+.h1-rencontrer{
+    font-size: 28px !important;
+    padding: 0 0 20px 0!important;
+}
+/* 
+.media-container-rencontrer{
+    width: 60% !important;
+}
+
+.media-container-rencontrer figure{
+    padding: 0 !important;
+}
+
+.media-container-rencontrer figure img{
+    margin-left: 50px !important;
 }
 
 h1.h1-rencontrer{
-    padding-top: 0 !important;
+    padding: 0 !important;
+    font-size: 28px !important;
+}
+
+.p-media-rencontrer{
+    padding-top: 30px !important;
 }
 
 .equipe-container{
@@ -752,7 +793,7 @@ h1.h1-rencontrer{
     display: flex;
     justify-content: end !important;
 
-}
+} */
 
 .cln-equipe{
     padding: 0 !important;
@@ -791,40 +832,15 @@ h1.h1-rencontrer{
     margin-top: -90px !important;
     max-width: 100% !important;
   }
-
-}
-/*** Page Commander *** TAB ***/
-
-/* .cf7-commande-container form{
-    width: 100% !important;
 }
 
 
-
-.produits-clns{
-padding: 0 !important;
-width: 100% !important;
-}
-
-.h2-commander{
-    display: flex;
-    justify-content: center !important;
-}
-
-.p-hr{
-    width: 100% !important;
-}
-
-.input-groupe-container{
-    /* padding: 0 15px !important; */
-
-
-/********* MOBILE ****************/
+/************ MOBILE ****************/
 @media screen  and (max-width: 783px) { 
 
 /**** Nav **** Mob ****/
 .toggle-inner{
-    color: #3B8E46 !important;
+    color: #DC9F96 !important;
 }
 
 .toggle-inner:hover{
@@ -839,19 +855,9 @@ width: 100% !important;
 .toggle-text:hover{
     transition: all 0.33s ease-in-out; 
     transform: scale(1.1) translateY(0px);
-    color: #DC9F96 !important;
+    color: #3B8E46 !important;
 
 }
-/* 
-.ancestor-wrapper a{
-    color: #DC9F96 !important;
-    text-decoration: none !important;
-} */
-
-/* .ancestor-wrapper a:hover{
-    text-decoration: none !important;
-    color: #3B8E46 !important;
-} */
 
 .close-nav-toggle span.toggle-text{
     text-decoration: none !important;
@@ -900,10 +906,10 @@ width: 100% !important;
     padding: 0 !important;
 }
 
-
 .h2-gouts{
     font-size: 26px !important; 
 }
+
 .p-gouts{
     font-size: 18px !important;
 }
@@ -948,22 +954,35 @@ width: 100% !important;
 
 
 /**** NOUS RENCONTRER*** Mob ***/
-h1.h1-rencontrer{
-    padding: 30px 0 0 0 !important;
-    font-size: 22px !important;
-}
-
-.media-container-rencontrer div{
-    padding: 0 !important;
-}
-
-.p-media-rencontrer{
-    font-size: 18px !important;
-    padding: 30px 15px !important;
-}
 
 .media-container-rencontrer{
     width: 100% !important;
+    display: flex;
+    flex-direction: column !important;
+}
+
+.media-container-rencontrer figure{
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+    justify-content: center !important;
+    display: flex;
+}
+
+.media-container-rencontrer figure img{
+    width: 250px !important;
+    height: 250px !important;
+    padding-bottom: 30px !important;
+}
+
+.media-container-rencontrer div{
+    width: 100% !important;
+    padding: 0 15px 30px 15px !important;
+}
+
+.h1-rencontrer{
+    font-size: 22px !important;
+    padding: 0 0 20px 0!important;
 }
 
 .h2-equipe{
@@ -1131,4 +1150,7 @@ p.p-mentions{
     padding: 0 15px !important;
 }
 }
+
+
+
 

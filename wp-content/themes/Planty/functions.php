@@ -11,7 +11,7 @@ function theme_enqueue_styles()
 /**** Charge le custom-scripts JS ***/ 
 add_action('wp_enqueue_scripts', 'ajouter_scripts_personnalises');
 function ajouter_scripts_personnalises() {
-  wp_enqueue_script('custom-scripts', get_stylesheet_directory_uri() . '/custom-scripts.js', array('jquery'), '1.0', true);
+wp_enqueue_script('custom-scripts', get_stylesheet_directory_uri() . '/Planty/custom-scripts.js', array('jquery'), '1.0', true);
 }
 
 
