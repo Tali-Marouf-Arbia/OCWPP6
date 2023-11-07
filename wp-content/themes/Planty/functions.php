@@ -1,5 +1,4 @@
 <?php
-
 add_action('wp_enqueue_scripts', 'theme_enqueue_styles');
 function theme_enqueue_styles()
 { //on s assure que l on charge bien le style css du theme parent
@@ -8,16 +7,13 @@ function theme_enqueue_styles()
     wp_enqueue_style('theme-style', get_stylesheet_directory_uri() . '/css/theme.css', array(), filemtime(get_stylesheet_directory() . '/css/theme.css'));
 }
 
-/**** Charge le custom-scripts JS ***/ 
+/*** charge le custom-scripts ***/
 add_action('wp_enqueue_scripts', 'ajouter_scripts_personnalises');
 function ajouter_scripts_personnalises() {
-wp_enqueue_script('custom-scripts', get_stylesheet_directory_uri() . '/Planty/custom-scripts.js', array('jquery'), '1.0', true);
+wp_enqueue_script('custom-scripts', get_stylesheet_directory_uri() . '/js/custom-scripts.js', array(), '1.0', true);
 }
 
-
-
 /*****HOOK*****/
-
 // Ajoute une fonction de filtrage
 add_filter('wp_nav_menu_items','add_admin_link', 10, 2);
 

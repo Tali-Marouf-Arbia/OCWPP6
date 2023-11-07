@@ -730,7 +730,7 @@ input.input-form-commande{
 
 
 /**** Page Nous rencontrer *** TAB***/
-/*section l'equipe*/
+
 .media-container-rencontrer{
     width: 100% !important;
     display: flex;
@@ -738,7 +738,7 @@ input.input-form-commande{
 }
 
 .media-container-rencontrer figure{
-    padding: 0 !important;
+    padding: 20px 0 0 0 !important;
     margin: 0 !important;
     width: 100% !important;
     justify-content: center !important;
@@ -748,7 +748,7 @@ input.input-form-commande{
 .media-container-rencontrer figure img{
     width: 250px !important;
     height: 250px !important;
-    padding-bottom: 50px !important;
+    padding-bottom: 70px !important;
 }
 
 .media-container-rencontrer div{
@@ -760,41 +760,8 @@ input.input-form-commande{
     font-size: 28px !important;
     padding: 0 0 20px 0!important;
 }
-/* 
-.media-container-rencontrer{
-    width: 60% !important;
-}
 
-.media-container-rencontrer figure{
-    padding: 0 !important;
-}
-
-.media-container-rencontrer figure img{
-    margin-left: 50px !important;
-}
-
-h1.h1-rencontrer{
-    padding: 0 !important;
-    font-size: 28px !important;
-}
-
-.p-media-rencontrer{
-    padding-top: 30px !important;
-}
-
-.equipe-container{
-    width: 90% !important;
-    margin-right: -50px !important;
-    padding: 0 0 10px 0 !important;
-}
-
-.media-equipe-container{
-    width: 100% !important;
-    display: flex;
-    justify-content: end !important;
-
-} */
-
+/*section l'equipe*/
 .cln-equipe{
     padding: 0 !important;
 }
@@ -808,7 +775,18 @@ h1.h1-rencontrer{
 }
 
 .equipe-big-container{
-    margin-bottom: -10px !important;
+    padding: 0 !important;
+}
+
+.media-equipe-container{
+    display: flex;
+    justify-content: center !important;
+    padding: 0 !important;
+}
+
+.equipe-container{
+    margin-left: 150px !important;
+    padding: 0 0 10px 0 !important;
 }
 
 /****** page commander ******* Tab ***/
@@ -883,11 +861,13 @@ h1.h1-rencontrer{
 .h1-accueil{
     font-size: 22px !important;
     width: 100% !important;
+    padding: 20px 0 0 0 !important;
 }
 
 .h1-cln-accueil{
-    height: 200px !important;
-    margin-bottom: 20px !important;
+    height: 130px !important;
+    padding-bottom: 30px !important;
+    /* margin: 20px !important; */
 }
 
 .img-accueil{
@@ -896,6 +876,7 @@ h1.h1-rencontrer{
 
 .img-accueil img{
     width: 100% !important;
+    padding: 0 10px !important;
 }
 
 .img-gouts-container figure.wp-block-gallery{
@@ -982,7 +963,7 @@ h1.h1-rencontrer{
 
 .h1-rencontrer{
     font-size: 22px !important;
-    padding: 0 0 20px 0!important;
+    padding: 30px 0 20px 0!important;
 }
 
 .h2-equipe{
