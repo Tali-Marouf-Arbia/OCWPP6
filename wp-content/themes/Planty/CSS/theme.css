@@ -61,7 +61,7 @@ header, main, footer{
     display: flex;
     align-items: center;
     height: 80px;
-    background-color: #E0B9B4;
+    background-color: #DC9F96 !important;
     color: #fff !important;
     font-weight: 700;
     transform: none !important;
@@ -71,7 +71,7 @@ header, main, footer{
 }
 
 .primary-menu li:last-child a:hover{
-    background-color: #C02E44;
+    background-color: #C02E44 !important;
 }
 
 
@@ -140,7 +140,7 @@ p{
 
 .h1-accueil{
     width: 60% !important;
-    padding: 80px 0 !important;
+    padding: 100px 0 !important;
 }
 
 /* Image cannette */
@@ -264,6 +264,7 @@ p{
 
 .colonne-comm p{
     font-size: 16px !important;
+    padding-right: 10px !important;
 }
 
 /*** IMAGE BAS DE PAGE ***/
@@ -351,7 +352,6 @@ p.p-mentions{
 }
 
 .equipe-container{
-    /* padding: 0 0 17px 140px !important; */
     width: 80% !important;
     margin: 0 !important;
 }
@@ -522,8 +522,8 @@ input.input-form-commande{
 
 .btn-plus, .btn-moins{
     width: 31px !important;
-    height: 29px !important;
-    background-color: #E0B9B4 !important;
+    height: 30.5px !important;
+    background-color: #DC9F96 !important;
     padding: 0 !important;
     text-decoration: none !important;
     font-weight: 400 !important;
@@ -538,9 +538,6 @@ input.input-form-commande{
     border-bottom: 1px solid #fff !important;
 }
 
-.btn-moins{
-    border-top: 1px solid #fff !important;
-}
 
 .btn-ok-container{
     padding-left: 10px !important;
@@ -635,7 +632,7 @@ input.input-form-commande{
 
 /**** Nav **** Mob ****/
 .toggle-inner{
-    color: #3B8E46 !important;
+    color: #DC9F96 !important;
 }
 
 .toggle-inner:hover{
@@ -650,28 +647,26 @@ input.input-form-commande{
 .toggle-text:hover{
     transition: all 0.33s ease-in-out; 
     transform: scale(1.1) translateY(0px);
-    color: #DC9F96 !important;
+    color: #3B8E46 !important;
 
-}
-
-.ancestor-wrapper a{
-    color: #DC9F96 !important;
-    text-decoration: none !important;
-}
-
-.ancestor-wrapper a:hover{
-    text-decoration: none !important;
-    color: #C02E44 !important;
 }
 
 .close-nav-toggle span.toggle-text{
-    text-decoration: none !important;
     color: #DC9F96 !important;
 }
 
 .close-nav-toggle span.toggle-text:hover{
-    color: #C02E44 !important;
+    color: #3B8E46 !important;
+}
+
+.modal-menu li a{
     text-decoration: none !important;
+    color: #DC9F96 !important;
+}
+
+.modal-menu li a:hover{
+    text-decoration: none !important;
+    color: #3B8E46 !important;
 }
 
 /**** PAGE ACCUEIL **** TAB ***/
@@ -797,11 +792,6 @@ h1.h1-rencontrer{
     max-width: 100% !important;
   }
 
-  .input-groupe{
-    width: 100% !important;
-  }
-
-
 }
 /*** Page Commander *** TAB ***/
 
@@ -852,16 +842,16 @@ width: 100% !important;
     color: #DC9F96 !important;
 
 }
-
+/* 
 .ancestor-wrapper a{
     color: #DC9F96 !important;
     text-decoration: none !important;
-}
+} */
 
-.ancestor-wrapper a:hover{
+/* .ancestor-wrapper a:hover{
     text-decoration: none !important;
-    color: #C02E44 !important;
-}
+    color: #3B8E46 !important;
+} */
 
 .close-nav-toggle span.toggle-text{
     text-decoration: none !important;
@@ -869,8 +859,18 @@ width: 100% !important;
 }
 
 .close-nav-toggle span.toggle-text:hover{
-    color: #C02E44 !important;
+    color: #3B8E46 !important;
     text-decoration: none !important;
+}
+
+.modal-menu li a{
+    text-decoration: none !important;
+    color: #DC9F96 !important;
+}
+
+.modal-menu li a:hover{
+    text-decoration: none !important;
+    color: #3B8E46 !important;
 }
 
 /*** ACCEUIL *** Mob ***/
@@ -949,7 +949,7 @@ width: 100% !important;
 
 /**** NOUS RENCONTRER*** Mob ***/
 h1.h1-rencontrer{
-    padding: 18px 0 0 0 !important;
+    padding: 30px 0 0 0 !important;
     font-size: 22px !important;
 }
 
@@ -967,7 +967,7 @@ h1.h1-rencontrer{
 }
 
 .h2-equipe{
-    padding: 30px 0 !important ;
+    padding: 28px 0 !important ;
 }
 
 .cln-equipe{
@@ -975,7 +975,7 @@ h1.h1-rencontrer{
 }
 
 .equipe-container{
-    padding-left: 0 !important;
+    padding: 0 0 20px 0!important;
     margin: 0 !important;
     width: 100% !important;
 }
